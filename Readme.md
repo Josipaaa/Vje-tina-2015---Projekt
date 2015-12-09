@@ -1,10 +1,10 @@
 ﻿Razvoj aplikacija u programskom jeziku C# – Projekt
 
-1.	Osnovna ideja projekta
+A.	Osnovna ideja projekta
 
 Napraviti programsku podršku za igranje društvene igre pogađanja pojmova, kako bi se olakšalo igranje iste.
  
-2.	Opis igre
+B.	Opis igre
 
 [Tradicionalan način]
 Igra pogađanja pojmova se igra u parovima (2 – 5 para). Cilj igre je sakupiti što veći broj bodova. Igra započinje tako da se na male papiriće napiše što više riječi koji se onda presavijaju i stavljaju u neku posudu. Podijele se parovi. Svaki par ima 90s  za pogađanje što više pojmova na papirićima. Jedan član para objašnjava drugom pojam na papiriću sve dok onaj drugi ne pogodi. Svaki pogođeni pojam nosi jedan bod. Tako se izmjenjuju parovi sve dok ne ponestane papirića. Kada na red dođe par koji je već pogađao zamjenjuju se uloge, te onaj koji je objašnjavao sada pogađa i obrnuto. Par sa najviše pogođenih pojmova pobjeđuje.
@@ -31,15 +31,15 @@ Omogućiti singleplayer – samo za jedan tim bez bodovanja, samo za zabavu.
 [Dodatne opcije]
 Omogućiti dodavanje vlastitih pojmova u bazu podataka, pri čemu je nužno unijeti sve podatke koji se traže (da li se riječ može opisati pantomimom/nacrtati, težina i sl.).
 
-3.	Profil
+C.	Profil
 
 Windows 10 aplikacija. Naziv aplikacije još uvijek nepoznat (to je najteže za smisliti). 
 
-4.	Razlog odabira projekta
+D.	Razlog odabira projekta
 
 Prijeko potrebna aplikacija jer je igra 'jednostavno cool', te ju igramo stalno ali smo ljenčine i ne želimo pisati pojmove na papiriće. Ne postoji takva aplikacija na Windows Storeu.
  
-5.	Raspodjela posla
+E.	Raspodjela posla
 
 Pošto nas ima 3 u grupi, jedna od nas će se brinuti o izgledu aplikacije, druga o funkcionalnostima vezanima uz algoritme izračunavanja bodova i unosima korisnika, dok će treća obrađivati sve vezano uz bazu podataka. Moguće je djelomično preklapanje poslova.
 
