@@ -342,6 +342,9 @@
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Word Base.txt">
+      <PackagePath>Word Base.txt</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\blueBackground.jpg">
       <PackagePath>blueBackground.jpg</PackagePath>
     </AppxPackagedFile>

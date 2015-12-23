@@ -22,13 +22,13 @@
     <AppXManifest Include="D:\Projects\GuessMe\GuessMe\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-12T17:23:43.189</Modified>
+      <Modified>2015-12-23T14:36:21.633</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\bin\x86\Debug\GuessMe.exe">
       <PackagePath>entrypoint\GuessMe.exe</PackagePath>
-      <Modified>2015-12-12T17:23:42.657</Modified>
+      <Modified>2015-12-23T14:36:20.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -458,6 +458,10 @@
       <PackagePath>ApplicationInsights.config</PackagePath>
       <Modified>2015-12-11T16:52:10.452</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Word Base.txt">
+      <PackagePath>Word Base.txt</PackagePath>
+      <Modified>2015-12-23T14:34:47.922</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\blueBackground.jpg">
       <PackagePath>blueBackground.jpg</PackagePath>
       <Modified>2015-12-12T17:22:03.040</Modified>
@@ -510,11 +514,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-12-12T17:23:43.104</Modified>
+      <Modified>2015-12-23T14:36:21.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\bin\x86\Debug\Core\GuessMe.exe">
       <PackagePath>GuessMe.exe</PackagePath>
-      <Modified>2015-12-12T17:23:43.188</Modified>
+      <Modified>2015-12-23T14:36:21.633</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
