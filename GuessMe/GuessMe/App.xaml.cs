@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GuessMe.controller;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -20,8 +21,8 @@ namespace GuessMe {
     /// Provides application-specific behavior to supplement the default Application class.
     /// </summary>
     sealed partial class App : Application {
-        HashSet<Word> hash = new HashSet<Word>();
         /// <summary>
+
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
         /// </summary>
@@ -31,13 +32,8 @@ namespace GuessMe {
                 Microsoft.ApplicationInsights.WindowsCollectors.Session);
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            AppLogics.init();
 
-            string[] lines = System.IO.File.ReadAllLines("./WordBase.txt");
-
-            foreach (string s in lines) {
-                Word neu = new Word(s);
-                hash.Add(neu);
-            }
             
         }
 

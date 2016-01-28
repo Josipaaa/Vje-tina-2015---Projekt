@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>737fcae4-b0b2-4631-b7c9-e6d311fafbcd</PackageIdentityName>
     <IntermediateOutputPath>D:\Projects\GuessMe\GuessMe\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>35D2A8DB32281E7C2FC5D3C4ECCEEB6CF8AA459047A07D74CDBD796CDEC67B41</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>71E22DD6B4E7F95A4C4238E324780F24E8570021E9218AD59DAED2E0A5F3CC3E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>737fcae4-b0b2-4631-b7c9-e6d311fafbcd_1.0.0.0_x86__fgqssvdatrng8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>737fcae4-b0b2-4631-b7c9-e6d311fafbcd_fgqssvdatrng8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>737fcae4-b0b2-4631-b7c9-e6d311fafbcd</RegisteredPackageID>
@@ -22,13 +22,13 @@
     <AppXManifest Include="D:\Projects\GuessMe\GuessMe\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-23T14:36:21.633</Modified>
+      <Modified>2016-01-28T19:42:32.342</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\bin\x86\Debug\GuessMe.exe">
       <PackagePath>entrypoint\GuessMe.exe</PackagePath>
-      <Modified>2015-12-23T14:36:20.275</Modified>
+      <Modified>2016-01-28T19:42:32.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -458,14 +458,6 @@
       <PackagePath>ApplicationInsights.config</PackagePath>
       <Modified>2015-12-11T16:52:10.452</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Word Base.txt">
-      <PackagePath>Word Base.txt</PackagePath>
-      <Modified>2015-12-23T14:34:47.922</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\blueBackground.jpg">
-      <PackagePath>blueBackground.jpg</PackagePath>
-      <Modified>2015-12-12T17:22:03.040</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2015-12-11T16:51:04.074</Modified>
@@ -510,15 +502,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2015-12-11T15:48:23.706</Modified>
+      <Modified>2016-01-28T17:16:47.246</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-12-23T14:36:21.352</Modified>
+      <Modified>2016-01-28T19:31:31.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\bin\x86\Debug\Core\GuessMe.exe">
       <PackagePath>GuessMe.exe</PackagePath>
-      <Modified>2015-12-23T14:36:21.633</Modified>
+      <Modified>2016-01-28T19:42:32.342</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
