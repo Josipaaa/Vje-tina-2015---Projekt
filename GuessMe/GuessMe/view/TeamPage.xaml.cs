@@ -25,13 +25,11 @@ namespace GuessMe {
         public TeamPage() {
             this.InitializeComponent();
 
-            
+
         }
 
-        protected override void OnNavigatedTo(NavigationEventArgs e)
-        {
-            if(e.Parameter is List<Team>)
-            {
+        protected override void OnNavigatedTo(NavigationEventArgs e) {
+            if (e.Parameter is List<Team>) {
                 teams = (List<Team>)e.Parameter;
                 teams = teams.OrderByDescending(i => i.Points).ToList();
                 numOfTeams = teams.Count;
@@ -42,46 +40,39 @@ namespace GuessMe {
                 team2.Text = teams.ElementAt(1).TeamName;
                 team2Points.Text = teams.ElementAt(1).Points.ToString();
 
-                if (numOfTeams < 5)
-                {
+                if (numOfTeams < 5) {
                     team5.Visibility = Visibility.Collapsed;
                     team5Points.Visibility = Visibility.Collapsed;
-                }
-                else
-                {
+                } else {
                     team5.Text = teams.ElementAt(4).TeamName;
                     team5Points.Text = teams.ElementAt(4).Points.ToString();
                 }
-                if (numOfTeams < 4)
-                {
+                if (numOfTeams < 4) {
                     team4.Visibility = Visibility.Collapsed;
                     team4Points.Visibility = Visibility.Collapsed;
-                }
-                else
-                {
+                } else {
                     team4.Text = teams.ElementAt(3).TeamName;
                     team4Points.Text = teams.ElementAt(3).Points.ToString();
                 }
-                if (numOfTeams < 3)
-                {
+                if (numOfTeams < 3) {
                     team3.Visibility = Visibility.Collapsed;
                     team3Points.Visibility = Visibility.Collapsed;
-                }
-                else
-                {
+                } else {
                     team3.Text = teams.ElementAt(2).TeamName;
                     team3Points.Text = teams.ElementAt(2).Points.ToString();
                 }
             }
         }
-        private void Back_Click(object sender, RoutedEventArgs e) {
-            Frame rootFrame = Window.Current.Content as Frame;
-            rootFrame.Navigate(typeof(MainPage));
-        }
 
-        private void OK_Click(object sender, RoutedEventArgs e) {
-            Frame rootFrame = Window.Current.Content as Frame;
-            rootFrame.Navigate(typeof(MainPage));
+        private void Next_Click(object sender, RoutedEventArgs e) {
+            if (Convert.ToInt32(team1Points.Text) > 50 || Convert.ToInt32(team2Points.Text) > 50 || Convert.ToInt32(team3Points.Text) > 50
+                || Convert.ToInt32(team4Points.Text) > 50 || Convert.ToInt32(team5Points.Text) > 50) {
+                Frame rootFrame = Window.Current.Content as Frame;
+                rootFrame.Navigate(typeof(MainPage));
+            } else {
+                Frame rootFrame = Window.Current.Content as Frame;
+                rootFrame.Navigate(typeof(GamePage));
+            }
         }
     }
 }

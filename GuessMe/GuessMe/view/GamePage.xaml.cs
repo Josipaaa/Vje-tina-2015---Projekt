@@ -42,7 +42,7 @@ namespace GuessMe {
             SecondsTextBlock.Text = startTime.ToString();
 
             List<string> words = fetchWords();
-           
+
 
             prvaRijecCheck.Content = words.ElementAt(0);
             drugaRijecCheck.Content = words.ElementAt(1);
@@ -60,11 +60,9 @@ namespace GuessMe {
 
         }
 
-        protected override void OnNavigatedTo(NavigationEventArgs e)
-        {
+        protected override void OnNavigatedTo(NavigationEventArgs e) {
             //game has just started
-            if (e.Parameter is List<Team>)
-            {
+            if (e.Parameter is List<Team>) {
                 teams = (List<Team>)e.Parameter;
                 CurrentTeam.Text = teams.ElementAt(0).TeamName;
             }
@@ -72,27 +70,23 @@ namespace GuessMe {
 
         private void Secondstimer_Tick(object sender, object e) {
             secondscount++;
-            if(secondscount == startTime)
-            {
+            if (secondscount == startTime) {
                 SecondsTextBlock.Text = "0";
             }
 
-            if (secondscount < startTime)
-            {
+            if (secondscount < startTime) {
                 SecondsTextBlock.Text = (startTime - secondscount % 60).ToString();
                 OK.IsEnabled = false;
-                if(prvaRijecCheck.IsChecked == true &&
+                if (prvaRijecCheck.IsChecked == true &&
                     drugaRijecCheck.IsChecked == true &&
                     trecaRijecCheck.IsChecked == true &&
                     cetvrtaRijecCheck.IsChecked == true &&
-                    petaRijecCheck.IsChecked == true)
-                {
+                    petaRijecCheck.IsChecked == true) {
                     OK.IsEnabled = true;
                 }
             }
 
-            if (secondscount > startTime)
-            {
+            if (secondscount > startTime) {
                 prvaRijecCheck.IsEnabled = false;
                 drugaRijecCheck.IsEnabled = false;
                 trecaRijecCheck.IsEnabled = false;
@@ -105,13 +99,8 @@ namespace GuessMe {
             }
 
         }
-        private void Back_Click(object sender, RoutedEventArgs e) {
-            Frame rootFrame = Window.Current.Content as Frame;
-            rootFrame.Navigate(typeof(TeamNamingPage));
-        }
 
-        private void Start_Click(object sender, RoutedEventArgs e)
-        {
+        private void Start_Click(object sender, RoutedEventArgs e) {
             timer.Start();
             prvaRijecCheck.IsEnabled = true;
             drugaRijecCheck.IsEnabled = true;
@@ -121,134 +110,111 @@ namespace GuessMe {
 
         }
 
-        private void OK_Click(object sender, RoutedEventArgs e)
-        {
+        private void OK_Click(object sender, RoutedEventArgs e) {
             Frame rootFrame = Window.Current.Content as Frame;
             rootFrame.Navigate(typeof(TeamPage), teams);
         }
 
-        private List<string> fetchWords()
-        {
+        private List<string> fetchWords() {
             HashSet<Word> hash = AppLogics.getAll();
             List<string> words = new List<string>();
             Random random = new Random();
             Word word;
             string str;
             DifficultyEnum tezina;
-            int easy = 0;
-            int medium = 0;
-            int hard = 0;
 
-            if (d == DifficultyEnum.EASY)
-            {
-                for (int i = 0; i < 5; i++)
-                {
+            if (d == DifficultyEnum.EASY) {
+                int easy = 3;
+                int medium = 1;
+                int hard = 1;
+                int i = 0;
+                while (i < 5) {
                     word = hash.ElementAt(random.Next(hash.Count));
                     str = word.Term;
                     tezina = word.Difficulty;
-                    if (tezina == DifficultyEnum.EASY)
-                        easy++;
-                    if (tezina == DifficultyEnum.MEDIUM)
-                        medium++;
-                    if (tezina == DifficultyEnum.HARD)
-                        hard++;
-                    if (words.Contains(str) || (medium / (easy + medium + hard) > 0.25) || (hard / (easy + medium + hard) > 0.25))
-                    {
-                        if (tezina == DifficultyEnum.EASY)
-                            easy--;
-                        if (tezina == DifficultyEnum.MEDIUM)
-                            medium--;
-                        if (tezina == DifficultyEnum.HARD)
-                            hard--;
-                        i--;
-                    }
-                    else {
+                    if (tezina == DifficultyEnum.EASY && easy > 0 && !words.Contains(str)) {
+                        i++;
+                        easy--;
+                        words.Add(str);
+                    } else if (tezina == DifficultyEnum.MEDIUM && medium > 0 && !words.Contains(str)) {
+                        i++;
+                        medium--;
+                        words.Add(str);
+                    } else if (tezina == DifficultyEnum.HARD && hard > 0 && !words.Contains(str)) {
+                        i++;
+                        hard--;
                         words.Add(str);
                     }
                 }
                 return words;
-            }
-            else if (d == DifficultyEnum.MEDIUM)
-            {
-                for (int i = 0; i < 5; i++)
-                {
+            } else if (d == DifficultyEnum.MEDIUM) {
+                int easy = 1;
+                int medium = 2;
+                int hard = 2;
+                int i = 0;
+                while (i < 5) {
                     word = hash.ElementAt(random.Next(hash.Count));
                     str = word.Term;
                     tezina = word.Difficulty;
-                    if (tezina == DifficultyEnum.EASY)
-                        easy++;
-                    if (tezina == DifficultyEnum.MEDIUM)
-                        medium++;
-                    if (tezina == DifficultyEnum.HARD)
-                        hard++;
-                    if (words.Contains(str) || (easy / (easy + medium + hard) > 0.25) || (hard / (easy + medium + hard) > 0.25))
-                    {
-                        if (tezina == DifficultyEnum.EASY)
-                            easy--;
-                        if (tezina == DifficultyEnum.MEDIUM)
-                            medium--;
-                        if (tezina == DifficultyEnum.HARD)
-                            hard--;
-                        i--;
-                    }
-                    else {
+                    if (tezina == DifficultyEnum.EASY && easy > 0 && !words.Contains(str)) {
+                        i++;
+                        easy--;
+                        words.Add(str);
+                    } else if (tezina == DifficultyEnum.MEDIUM && medium > 0 && !words.Contains(str)) {
+                        i++;
+                        medium--;
+                        words.Add(str);
+                    } else if (tezina == DifficultyEnum.HARD && hard > 0 && !words.Contains(str)) {
+                        i++;
+                        hard--;
                         words.Add(str);
                     }
                 }
                 return words;
-            }
-            else if (d == DifficultyEnum.HARD)
-            {
-                for (int i = 0; i < 5; i++)
-                {
+            } else if (d == DifficultyEnum.HARD) {
+                int easy = 1;
+                int medium = 1;
+                int hard = 3;
+                int i = 0;
+                while (i < 5) {
                     word = hash.ElementAt(random.Next(hash.Count));
                     str = word.Term;
                     tezina = word.Difficulty;
-                    if (tezina == DifficultyEnum.EASY)
-                        easy++;
-                    if (tezina == DifficultyEnum.MEDIUM)
-                        medium++;
-                    if (tezina == DifficultyEnum.HARD)
-                        hard++;
-                    if (words.Contains(str) || (easy / (easy + medium + hard) > 0.10) || (medium / (easy + medium + hard) > 0.25))
-                    {
-                        if (tezina == DifficultyEnum.EASY)
-                            easy--;
-                        if (tezina == DifficultyEnum.MEDIUM)
-                            medium--;
-                        if (tezina == DifficultyEnum.HARD)
-                            hard--;
-                        i--;
-                    }
-                    else {
+                    if (tezina == DifficultyEnum.EASY && easy > 0 && !words.Contains(str)) {
+                        i++;
+                        easy--;
+                        words.Add(str);
+                    } else if (tezina == DifficultyEnum.MEDIUM && medium > 0 && !words.Contains(str)) {
+                        i++;
+                        medium--;
+                        words.Add(str);
+                    } else if (tezina == DifficultyEnum.HARD && hard > 0 && !words.Contains(str)) {
+                        i++;
+                        hard--;
                         words.Add(str);
                     }
                 }
                 return words;
-            }
-            else {
-                for (int i = 0; i < 5; i++)
-                {
+            } else {
+                int easy = 0;
+                int medium = 1;
+                int hard = 4;
+                int i = 0;
+                while (i < 5) {
                     word = hash.ElementAt(random.Next(hash.Count));
                     str = word.Term;
                     tezina = word.Difficulty;
-                    if (tezina == DifficultyEnum.EASY)
-                        easy++;
-                    if (tezina == DifficultyEnum.MEDIUM)
-                        medium++;
-                    if (tezina == DifficultyEnum.HARD)
-                        hard++;
-                    if (words.Contains(str) || (easy / (easy + medium + hard) > 0.10) || (medium / (easy + medium + hard) > 0.25))
-                    {
-                        if (tezina == DifficultyEnum.EASY)
-                            easy--;
-                        if (tezina == DifficultyEnum.MEDIUM)
-                            medium--;
-                        if (tezina == DifficultyEnum.HARD)
-                            hard--;
-                        i--;
-                    }
-                    else {
+                    if (tezina == DifficultyEnum.EASY && easy > 0 && !words.Contains(str)) {
+                        i++;
+                        easy--;
+                        words.Add(str);
+                    } else if (tezina == DifficultyEnum.MEDIUM && medium > 0 && !words.Contains(str)) {
+                        i++;
+                        medium--;
+                        words.Add(str);
+                    } else if (tezina == DifficultyEnum.HARD && hard > 0 && !words.Contains(str)) {
+                        i++;
+                        hard--;
                         words.Add(str);
                     }
                 }

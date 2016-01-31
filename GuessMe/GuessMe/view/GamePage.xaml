@@ -31,12 +31,11 @@
         <TextBlock x:Name="CurrentTeam" Margin="80,62,80,0" TextWrapping="Wrap" Text="" FontSize="29.333" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="60" FontWeight="Bold" Grid.ColumnSpan="2" />
         <TextBlock x:Name="SecondsTextBlock" Margin="80,150,80,0" TextWrapping="Wrap" Text="{Binding DispatcherTimer,UpdateSourceTrigger=PropertyChanged}" FontSize="29.333" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="100" FontWeight="Bold" Grid.ColumnSpan="2" />
         <Button x:Name="Start" Content="Start" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Center" Height="60" Background="#3FFFFFFF" BorderBrush="#FFB7CFEC" Grid.Row="7" Grid.Column="1" Click="Start_Click"/>
-        <Button x:Name="Back" Content="Back" HorizontalAlignment="Stretch" VerticalAlignment="Center" Height="60" Background="#3FFFFFFF" Click="Back_Click" BorderBrush="#FFB7CFEC" Grid.Row="7" />
         <CheckBox x:Name="prvaRijecCheck" Content="prva rijec" HorizontalAlignment="Stretch" Margin="50,0" VerticalAlignment="Stretch" Grid.Row="1" Grid.ColumnSpan="2" BorderBrush="#FFB7CFEC" />
         <CheckBox x:Name="drugaRijecCheck" Content="druga rijec" HorizontalAlignment="Stretch" Margin="50,0" VerticalAlignment="Stretch" Grid.Row="2" Grid.ColumnSpan="2" BorderBrush="#FFB7CFEC"/>
         <CheckBox x:Name="trecaRijecCheck" Content="treca rijec" HorizontalAlignment="Stretch" Margin="50,0" VerticalAlignment="Stretch" Grid.Row="3" Grid.ColumnSpan="2" BorderBrush="#FFB7CFEC"/>
         <CheckBox x:Name="cetvrtaRijecCheck" Content="cetvrta rijec" HorizontalAlignment="Stretch" Margin="50,0" VerticalAlignment="Stretch" Grid.Row="4" Grid.ColumnSpan="2" BorderBrush="#FFB7CFEC"/>
         <CheckBox x:Name="petaRijecCheck" Content="peta rijec" HorizontalAlignment="Stretch" Margin="50,0" VerticalAlignment="Stretch" Grid.Row="5" Grid.ColumnSpan="2" BorderBrush="#FFB7CFEC"/>
-        <Button x:Name="OK" Content="OK" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Center" Height="60" Background="#3FFFFFFF" BorderBrush="#FFB7CFEC" Grid.Row="3" Grid.Column="2" Click="OK_Click"/>
+        <Button x:Name="OK" Content="OK" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" Height="60" Background="#3FFFFFFF" BorderBrush="#FFB7CFEC" Grid.Row="7" Click="OK_Click"/>
     </Grid>
 </Page>

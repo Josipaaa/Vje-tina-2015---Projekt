@@ -1,27 +1,27 @@
-skorbut|1|1|1|1
+skorbut|2|1|1|1
 implemetacija|1|1|1|1
 ratoborno|1|1|1|1
 distribucija|1|1|1|1
-bitumen|1|1|1|1
+bitumen|2|1|1|1
 gospodar vremena|1|1|1|1
-proleterijat|1|1|1|1
-dretva|1|1|1|1
+proleterijat|2|1|1|1
+dretva|2|1|1|1
 stradati|1|1|1|1
 dementor|1|1|1|1
 bazilisk|1|1|1|1
 identitet|1|1|1|1
-žezlo|1|1|1|1
+Å¾ezlo|1|1|1|1
 katkovidnost|1|1|1|1
-hobit|1|1|1|1
+hobit|0|1|1|1
 recepcija|1|1|1|1
-mirisni štapiæ|1|1|1|1
+mirisni Å¡tapiÄ‡|1|1|1|1
 simulacija|1|1|1|1
 transformator|1|1|1|1
 kameni puder|1|1|1|1
 snob|1|1|1|1
 praskozorje|1|1|1|1
 nahuškati|1|1|1|1
-neznanac|1|1|1|1
+neznanac|0|1|1|1
 nepogrešivost|1|1|1|1
 histerièni napadaj|1|1|1|1
 zagroban život|1|1|1|1
@@ -32,30 +32,31 @@ baciti u vjetar|1|1|1|1
 plodonosan|1|1|1|1
 prokarioti|1|1|1|1
 luciferin|1|1|1|1
-njihalo|1|1|1|1
-antimaterija|1|1|1|1
-hijerarhijska struktura|1|1|1|1
+njihalo|0|1|1|1
+antimaterija|0|1|1|1
+hijerarhijska struktura|2|1|1|1
 prekidaè|1|1|1|1
 izzdubiti|1|1|1|1
 patliðan|1|1|1|1
 komunizam|1|1|1|1
-zavodljiv osmijeh|1|1|1|1
+zavodljiv osmijeh|0|1|1|1
 kompresija|1|1|1|1
-plišana igraèka|1|1|1|1
-baza podataka|1|1|1|1
+plišana igraèka|0|1|1|1
+baza podataka|0|1|1|1
 sazviježðe|1|1|1|1
 balzam|1|1|1|1
 ornament|1|1|1|1
 katakombe|1|1|1|1
-ion|1|1|1|1
+ion|0|1|1|1
 goblin|1|1|1|1
 vrganj|1|1|1|1
-ljudožder|1|1|1|1
+ljudožder|0|1|1|1
 ekvilibrij|1|1|1|1
-vagabond|1|1|1|1
+vagabond|2|1|1|1
 smisao života|1|1|1|1
 tilda|1|1|1|1
 amajlija|1|1|1|1
 volframova nit|1|1|1|1
 redundantno|1|1|1|1
-stanovništvo|1|1|1|1
+stanovništvo|0|1|1|1
+lugarnica|2|1|1|1
