@@ -61,3 +61,4 @@ redundantno|1|1|1|1
 stanovništvo|1|1|1|1
 banana|1|1|1|1
 banana|2|1|1|1
+alpinizam|2|1|1|0

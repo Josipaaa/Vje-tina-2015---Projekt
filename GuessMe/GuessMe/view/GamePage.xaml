@@ -15,19 +15,28 @@
             </LinearGradientBrush>
         </Grid.Background>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height ="60"/>
+            <RowDefinition Height ="60"/>
+            <RowDefinition Height ="60"/>
+            <RowDefinition Height ="60"/>
+            <RowDefinition Height ="60"/>
+            <RowDefinition Height ="*"/>
             <RowDefinition Height ="60"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="Game" Margin="80,62,80,0" TextWrapping="Wrap" Text="Game" FontSize="29.333" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="40" FontWeight="Bold" Grid.ColumnSpan="2" />
-        <TextBlock x:Name="CurrentTeam" Margin="0,200,80,0" TextWrapping="Wrap" Text="" FontSize="29.333" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="40" FontWeight="Bold" Grid.ColumnSpan="2" />
-        <TextBlock x:Name="SecondsTextBlock" Margin="80,150,80,0" TextWrapping="Wrap" Text="{Binding DispatcherTimer,UpdateSourceTrigger=PropertyChanged}" FontSize="29.333" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="40" FontWeight="Bold" Grid.ColumnSpan="2" />
-        <Button x:Name="Start" Content="Start" Margin="140,204,0,316" VerticalAlignment="Center" Height="60" Width="100" Background="#3FFFFFFF" Click="Start_Click" BorderBrush="#FFB7CFEC" Grid.ColumnSpan="2"/>
-        <Button x:Name="Next" Content="Next" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Center" Height="60" Background="#3FFFFFFF" BorderBrush="#FFB7CFEC" Grid.Row="1" Grid.Column="1" Click="OK_Click"/>
-        <Button x:Name="Back" Content="Back" HorizontalAlignment="Stretch" VerticalAlignment="Center" Height="60" Background="#3FFFFFFF" Click="Back_Click" BorderBrush="#FFB7CFEC" Grid.Row="1"/>
+        <TextBlock x:Name="CurrentTeam" Margin="80,62,80,0" TextWrapping="Wrap" Text="" FontSize="29.333" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="60" FontWeight="Bold" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="SecondsTextBlock" Margin="80,150,80,0" TextWrapping="Wrap" Text="{Binding DispatcherTimer,UpdateSourceTrigger=PropertyChanged}" FontSize="29.333" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="60" FontWeight="Bold" Grid.ColumnSpan="2" />
+        <Button x:Name="Start" Content="Start" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Center" Height="60" Background="#3FFFFFFF" BorderBrush="#FFB7CFEC" Grid.Row="7" Grid.Column="1" Click="Start_Click"/>
+        <Button x:Name="Back" Content="Back" HorizontalAlignment="Stretch" VerticalAlignment="Center" Height="60" Background="#3FFFFFFF" Click="Back_Click" BorderBrush="#FFB7CFEC" Grid.Row="7" />
+        <CheckBox x:Name="prvaRijecCheck" Content="prva rijec" HorizontalAlignment="Stretch" Margin="50,0" VerticalAlignment="Stretch" Grid.Row="1" Grid.ColumnSpan="2" BorderBrush="#FFB7CFEC" />
+        <CheckBox x:Name="drugaRijecCheck" Content="druga rijec" HorizontalAlignment="Stretch" Margin="50,0" VerticalAlignment="Stretch" Grid.Row="2" Grid.ColumnSpan="2" BorderBrush="#FFB7CFEC"/>
+        <CheckBox x:Name="trecaRijecCheck" Content="treca rijec" HorizontalAlignment="Stretch" Margin="50,0" VerticalAlignment="Stretch" Grid.Row="3" Grid.ColumnSpan="2" BorderBrush="#FFB7CFEC"/>
+        <CheckBox x:Name="cetvrtaRijecCheck" Content="cetvrta rijec" HorizontalAlignment="Stretch" Margin="50,0" VerticalAlignment="Stretch" Grid.Row="4" Grid.ColumnSpan="2" BorderBrush="#FFB7CFEC"/>
+        <CheckBox x:Name="petaRijecCheck" Content="peta rijec" HorizontalAlignment="Stretch" Margin="50,0" VerticalAlignment="Stretch" Grid.Row="5" Grid.ColumnSpan="2" BorderBrush="#FFB7CFEC"/>
 
     </Grid>
 </Page>

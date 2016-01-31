@@ -55,7 +55,24 @@ namespace GuessMe {
 
         private void Secondstimer_Tick(object sender, object e) {
             secondscount++;
-            SecondsTextBlock.Text = (startTime - secondscount % 60).ToString();
+            if(secondscount == startTime)
+            {
+                SecondsTextBlock.Text = "0";
+            }
+
+            if(secondscount < startTime)
+                SecondsTextBlock.Text = (startTime - secondscount % 60).ToString();
+
+            if (secondscount > startTime)
+            {
+                SecondsTextBlock.Text = "Your time has expired!!!";
+
+                if (secondscount == startTime + 5)
+                {
+                    Frame rootFrame = Window.Current.Content as Frame;
+                    rootFrame.Navigate(typeof(TeamPage));
+                }
+            }
 
         }
         private void Back_Click(object sender, RoutedEventArgs e) {
@@ -63,15 +80,11 @@ namespace GuessMe {
             rootFrame.Navigate(typeof(TeamNamingPage));
         }
 
-        private void OK_Click(object sender, RoutedEventArgs e) {
-            Frame rootFrame = Window.Current.Content as Frame;
-            rootFrame.Navigate(typeof(TeamPage));
-        }
-
         private void Start_Click(object sender, RoutedEventArgs e)
-        {      
+        {
                 timer.Start();
         }
+
         private List<string> fetchWords()
         {
             List<string> w = new List<string>();
