@@ -37,11 +37,6 @@ namespace GuessMe
             rootFrame.Navigate(typeof(AddWordPage));
         }
 
-        private void Settings_Click(object sender, RoutedEventArgs e) {
-            Frame rootFrame = Window.Current.Content as Frame;
-            rootFrame.Navigate(typeof(SettingsPage));
-        }
-
         private void Rules_Click(object sender, RoutedEventArgs e) {
             Frame rootFrame = Window.Current.Content as Frame;
             rootFrame.Navigate(typeof(RulesPage));

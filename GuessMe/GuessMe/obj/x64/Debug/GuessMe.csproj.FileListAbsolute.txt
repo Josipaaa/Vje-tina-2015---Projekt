@@ -6,7 +6,6 @@ D:\Projects\GuessMe\GuessMe\bin\x64\Debug\view\GamePage.xbf
 D:\Projects\GuessMe\GuessMe\bin\x64\Debug\view\MainPage.xbf
 D:\Projects\GuessMe\GuessMe\bin\x64\Debug\view\PlayPage.xbf
 D:\Projects\GuessMe\GuessMe\bin\x64\Debug\view\RulesPage.xbf
-D:\Projects\GuessMe\GuessMe\bin\x64\Debug\view\SettingsPage.xbf
 D:\Projects\GuessMe\GuessMe\bin\x64\Debug\view\TeamNamingPage.xbf
 D:\Projects\GuessMe\GuessMe\bin\x64\Debug\view\TeamPage.xbf
 D:\Projects\GuessMe\GuessMe\bin\x64\Debug\GuessMe.xr.xml
@@ -137,8 +136,6 @@ D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\PlayPage.g.i.cs
 D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\PlayPage.g.cs
 D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\RulesPage.g.i.cs
 D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\RulesPage.g.cs
-D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\SettingsPage.g.i.cs
-D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\SettingsPage.g.cs
 D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\TeamNamingPage.g.i.cs
 D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\TeamNamingPage.g.cs
 D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\TeamPage.g.i.cs
@@ -151,7 +148,6 @@ D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\GamePage.xaml
 D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\MainPage.xaml
 D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\PlayPage.xaml
 D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\RulesPage.xaml
-D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\SettingsPage.xaml
 D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\TeamNamingPage.xaml
 D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\TeamPage.xaml
 D:\Projects\GuessMe\GuessMe\obj\x64\Debug\App.xbf
@@ -161,7 +157,6 @@ D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\GamePage.xbf
 D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\MainPage.xbf
 D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\PlayPage.xbf
 D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\RulesPage.xbf
-D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\SettingsPage.xbf
 D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\TeamNamingPage.xbf
 D:\Projects\GuessMe\GuessMe\obj\x64\Debug\view\TeamPage.xbf
 D:\Projects\GuessMe\GuessMe\obj\x64\Debug\XamlSaveStateFile.xml

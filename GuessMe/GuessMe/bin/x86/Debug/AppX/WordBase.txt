@@ -20,11 +20,11 @@ transformator|1|1|1|1
 kameni puder|1|1|1|1
 snob|1|1|1|1
 praskozorje|1|1|1|1
-nahuškati|1|1|1|1
+nahuÅ¡kati|1|1|1|1
 neznanac|0|1|1|1
-nepogrešivost|1|1|1|1
-histerièni napadaj|1|1|1|1
-zagroban ivot|1|1|1|1
+nepogreÅ¡ivost|1|1|1|1
+histeriÄni napadaj|1|1|1|1
+zagroban Å¾ivot|1|1|1|1
 armagedon|1|1|1|1
 korzet|1|1|1|1
 fizikalni zakoni|1|1|1|1
@@ -35,28 +35,71 @@ luciferin|1|1|1|1
 njihalo|0|1|1|1
 antimaterija|0|1|1|1
 hijerarhijska struktura|2|1|1|1
-prekidaè|1|1|1|1
-izzdubiti|1|1|1|1
-patliğan|1|1|1|1
+prekidaÄ|1|1|1|1
+izdubiti|1|1|1|1
+patliÄ‘an|1|1|1|1
 komunizam|1|1|1|1
 zavodljiv osmijeh|0|1|1|1
 kompresija|1|1|1|1
-plišana igraèka|0|1|1|1
+pliÅ¡ana igraÄka|0|1|1|1
 baza podataka|0|1|1|1
-sazvijeğe|1|1|1|1
+sazvijeÅ¾Ä‘e|1|1|1|1
 balzam|1|1|1|1
 ornament|1|1|1|1
 katakombe|1|1|1|1
 ion|0|1|1|1
 goblin|1|1|1|1
 vrganj|1|1|1|1
-ljudoder|0|1|1|1
+ljudoÅ¾der|0|1|1|1
 ekvilibrij|1|1|1|1
 vagabond|2|1|1|1
-smisao ivota|1|1|1|1
+smisao Å¾ivota|1|1|1|1
 tilda|1|1|1|1
 amajlija|1|1|1|1
 volframova nit|1|1|1|1
 redundantno|1|1|1|1
-stanovništvo|0|1|1|1
+stanovniÅ¡tvo|0|1|1|1
 lugarnica|2|1|1|1
+ceker|2|1|1|1
+organiski|0|1|1|1
+mitohondrij|1|1|1|1
+propan|2|1|1|1
+parobrod|1|1|1|1
+brodogradiliÅ¡te|0|1|1|1
+kamenolom|0|1|1|1
+kokoÅ¡injac|0|1|1|1
+odvod|2|1|1|1
+kiÅ¡nica|2|1|1|1
+kabanica|2|1|1|1
+koÄija|0|1|1|1
+nalivpero|2|1|1|1
+palatali|0|1|1|1
+agrumi|2|1|1|1
+sipa|0|1|1|1
+kartografija|2|1|1|1
+koaksijalni kabel|2|1|1|1
+parica|0|1|1|1
+glija stanice|2|1|1|1
+micelij|2|1|1|1
+polisaharidi|2|1|1|1
+modra galica|2|1|1|1
+entropija|2|1|1|1
+trbuhozborac|0|1|1|1
+polarna svjetlost|1|1|1|1
+impuls|0|1|1|1
+paralelepipedi|2|1|1|1
+supstitucija|0|1|1|1
+zodijak|0|1|1|1
+visak|2|1|1|1
+inflacije|0|1|1|1
+epicentar|0|1|1|1
+seizmograf|0|1|1|1
+tektonske ploÄe|2|1|1|1
+indijska laÄ‘ica|2|1|1|1
+konoplja|0|1|1|1
+motka|2|1|1|1
+karoserija|2|1|1|1
+Å¡asija|2|1|1|1
+bedem|2|1|1|1
+klas|2|1|1|1
+stanovnik|2|1|1|1

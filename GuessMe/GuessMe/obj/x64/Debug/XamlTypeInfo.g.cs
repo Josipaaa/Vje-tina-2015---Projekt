@@ -132,7 +132,7 @@ namespace GuessMe.GuessMe_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[11];
+            _typeNameTable = new string[10];
             _typeNameTable[0] = "GuessMe.AboutPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -141,11 +141,10 @@ namespace GuessMe.GuessMe_XamlTypeInfo
             _typeNameTable[5] = "GuessMe.MainPage";
             _typeNameTable[6] = "GuessMe.PlayPage";
             _typeNameTable[7] = "GuessMe.RulesPage";
-            _typeNameTable[8] = "GuessMe.SettingsPage";
-            _typeNameTable[9] = "GuessMe.TeamNamingPage";
-            _typeNameTable[10] = "GuessMe.TeamPage";
+            _typeNameTable[8] = "GuessMe.TeamNamingPage";
+            _typeNameTable[9] = "GuessMe.TeamPage";
 
-            _typeTable = new global::System.Type[11];
+            _typeTable = new global::System.Type[10];
             _typeTable[0] = typeof(global::GuessMe.AboutPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -154,9 +153,8 @@ namespace GuessMe.GuessMe_XamlTypeInfo
             _typeTable[5] = typeof(global::GuessMe.MainPage);
             _typeTable[6] = typeof(global::GuessMe.PlayPage);
             _typeTable[7] = typeof(global::GuessMe.RulesPage);
-            _typeTable[8] = typeof(global::GuessMe.SettingsPage);
-            _typeTable[9] = typeof(global::GuessMe.TeamNamingPage);
-            _typeTable[10] = typeof(global::GuessMe.TeamPage);
+            _typeTable[8] = typeof(global::GuessMe.TeamNamingPage);
+            _typeTable[9] = typeof(global::GuessMe.TeamPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -197,9 +195,8 @@ namespace GuessMe.GuessMe_XamlTypeInfo
         private object Activate_5_MainPage() { return new global::GuessMe.MainPage(); }
         private object Activate_6_PlayPage() { return new global::GuessMe.PlayPage(); }
         private object Activate_7_RulesPage() { return new global::GuessMe.RulesPage(); }
-        private object Activate_8_SettingsPage() { return new global::GuessMe.SettingsPage(); }
-        private object Activate_9_TeamNamingPage() { return new global::GuessMe.TeamNamingPage(); }
-        private object Activate_10_TeamPage() { return new global::GuessMe.TeamPage(); }
+        private object Activate_8_TeamNamingPage() { return new global::GuessMe.TeamNamingPage(); }
+        private object Activate_9_TeamPage() { return new global::GuessMe.TeamPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -261,23 +258,16 @@ namespace GuessMe.GuessMe_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 8:   //  GuessMe.SettingsPage
+            case 8:   //  GuessMe.TeamNamingPage
                 userType = new global::GuessMe.GuessMe_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_SettingsPage;
+                userType.Activator = Activate_8_TeamNamingPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 9:   //  GuessMe.TeamNamingPage
+            case 9:   //  GuessMe.TeamPage
                 userType = new global::GuessMe.GuessMe_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_TeamNamingPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 10:   //  GuessMe.TeamPage
-                userType = new global::GuessMe.GuessMe_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_TeamPage;
+                userType.Activator = Activate_9_TeamPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

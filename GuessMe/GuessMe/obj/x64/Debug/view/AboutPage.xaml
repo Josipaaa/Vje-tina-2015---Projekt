@@ -14,7 +14,13 @@
                 <GradientStop Color="#FFB7CFEC" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button x:ConnectionId='1' x:Name="Back" Content="Back" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Bottom" Height="60" Background="#3FFFFFFF"                    BorderBrush="#FFB7CFEC"/>
+
+        <TextBlock x:ConnectionId='1' x:Name="DesignCoding" Margin="80,62,80,0" TextWrapping="Wrap" Text="Design and coding:" FontSize="29.333" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="100" FontWeight="Bold" Grid.ColumnSpan="2" />
+
+        <TextBlock x:ConnectionId='2' x:Name="Author1" Margin="50,150,50,0" TextWrapping="Wrap" Text="Josipa Popović" FontSize="29" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="50" Grid.ColumnSpan="2" />
+        <TextBlock x:ConnectionId='3' x:Name="Author2" Margin="50,200,50,0" TextWrapping="Wrap" Text="Stella Coumbassa" FontSize="29" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Width="350" Height="50" Grid.ColumnSpan="2" />
+        <TextBlock x:ConnectionId='4' x:Name="Year" Margin="20,400,20,0" TextWrapping="Wrap" Text="Copyright (c) 2016 GuessMe" FontSize="26.667" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.ColumnSpan="2" />
+        <Button x:ConnectionId='5' x:Name="Back" Content="Back" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Bottom" Height="60" Background="#3FFFFFFF"                    BorderBrush="#FFB7CFEC"/>
     </Grid>
 </Page>
 

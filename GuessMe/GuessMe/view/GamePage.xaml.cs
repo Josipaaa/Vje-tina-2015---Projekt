@@ -62,7 +62,7 @@ namespace GuessMe {
 
         protected override void OnNavigatedTo(NavigationEventArgs e) {
 
-            CurrentTeam.Text = AppLogics.teams.ElementAt(AppLogics.teams.Peek().Identifikator).TeamName;
+            CurrentTeam.Text = AppLogics.teams.Peek().TeamName;
 
         }
 
@@ -126,8 +126,8 @@ namespace GuessMe {
             if (petaRijecCheck.IsChecked == true)
                 points += findDifficulty(words.ElementAt(4));
 
-            //time bonus - 1 point for every 10 seconds
-            points += (startTime - secondscount) / 10;
+            //time bonus - 1 point for every 15 seconds
+            points += (startTime - secondscount) / 15;
             AppLogics.teams.ElementAt(0).Points += points;
             rootFrame.Navigate(typeof(TeamPage));
         }

@@ -15,5 +15,11 @@
             </LinearGradientBrush>
         </Grid.Background>
         <Button x:Name="Back" Content="Back" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Bottom" Height="60" Background="#3FFFFFFF" Click="Back_Click" BorderBrush="#FFB7CFEC"/>
+        <TextBlock x:Name="textBlock" Margin="20,20,20,50" TextWrapping="Wrap" Text="This game was designed to be played by 2 to 5 teams consisting of 2 team members." HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1" Margin="20,100,20,50" TextWrapping="Wrap" Text="Each team has 60 (30 in extreme mode) seconds to guess up to 5 words. Team earns points based on the difficulty of words and time remaining." HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2" Margin="20,200,20,50" TextWrapping="Wrap" Text="During the game one team member has to explain given words to the other teammate." HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock3" Margin="20,275,20,50" TextWrapping="Wrap" Text="In order to explain given terms one must not use root of the words nor synonyms. Words in other languages that have the same meaning are forbidden." HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock4" Margin="20,375,20,50" TextWrapping="Wrap" Text="Rhymes can be used." HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock5" Margin="20,450,20,50" TextWrapping="Wrap" Text="Game ends when one of the teams reach at least 50 points." HorizontalAlignment="Center" VerticalAlignment="Top"/>
     </Grid>
 </Page>

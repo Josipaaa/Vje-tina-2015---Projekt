@@ -15,11 +15,10 @@
             </LinearGradientBrush>
         </Grid.Background>
         <Button x:ConnectionId='1' x:Name="Play" Content="Play" HorizontalAlignment="Center" Margin="80,280,80,0" VerticalAlignment="Top" FontSize="18.667" Width="200" Height="60" Background="#3FFFFFFF"                    BorderBrush="#FFB7CFEC"/>
-        <Button x:ConnectionId='2' x:Name="Settings" Content="Settings" HorizontalAlignment="Center" Margin="80,340,80,0" VerticalAlignment="Top" FontSize="18.667" Width="200" Height="60" Background="#3FFFFFFF"                        BorderBrush="#FFB7CFEC"/>
-        <Button x:ConnectionId='3' x:Name="AddWord" Content="Add Word" HorizontalAlignment="Center" Margin="80,220,80,0" VerticalAlignment="Top" FontSize="18.667" Width="200" Height="60" Background="#3FFFFFFF"                       BorderBrush="#FFB7CFEC"/>
-        <Button x:ConnectionId='4' x:Name="Rules" Content="Rules" HorizontalAlignment="Center" Margin="80,400,80,0" VerticalAlignment="Top" FontSize="18.667" Width="200" Height="60" Background="#3FFFFFFF"                     BorderBrush="#FFB7CFEC"/>
-        <Button x:ConnectionId='5' x:Name="About" Content="About" HorizontalAlignment="Center" Margin="80,460,80,0" VerticalAlignment="Top" FontSize="18.667" Width="200" Height="60" Background="#3FFFFFFF"                     BorderBrush="#FFB7CFEC"/>
-        <TextBlock x:ConnectionId='6' x:Name="GuessMe" HorizontalAlignment="Center" Margin="80,80,80,0" TextWrapping="NoWrap" Text="GuessMe" VerticalAlignment="Top" Width="200" Height="40" RenderTransformOrigin="0.372,0.21" SelectionHighlightColor="#FF4C4A48" FontSize="29.333" FontWeight="Bold" TextAlignment="Center">
+        <Button x:ConnectionId='2' x:Name="AddWord" Content="Add Word" HorizontalAlignment="Center" Margin="80,220,80,0" VerticalAlignment="Top" FontSize="18.667" Width="200" Height="60" Background="#3FFFFFFF"                       BorderBrush="#FFB7CFEC"/>
+        <Button x:ConnectionId='3' x:Name="Rules" Content="Rules" HorizontalAlignment="Center" Margin="80,340,80,0" VerticalAlignment="Top" FontSize="18.667" Width="200" Height="60" Background="#3FFFFFFF"                     BorderBrush="#FFB7CFEC"/>
+        <Button x:ConnectionId='4' x:Name="About" Content="About" HorizontalAlignment="Center" Margin="80,400,80,0" VerticalAlignment="Top" FontSize="18.667" Width="200" Height="60" Background="#3FFFFFFF"                     BorderBrush="#FFB7CFEC"/>
+        <TextBlock x:ConnectionId='5' x:Name="GuessMe" HorizontalAlignment="Center" Margin="80,80,80,0" TextWrapping="NoWrap" Text="GuessMe" VerticalAlignment="Top" Width="200" Height="40" RenderTransformOrigin="0.372,0.21" SelectionHighlightColor="#FF4C4A48" FontSize="29.333" FontWeight="Bold" TextAlignment="Center">
             <TextBlock.Foreground>
                 <SolidColorBrush Color="Black"/>
             </TextBlock.Foreground>
