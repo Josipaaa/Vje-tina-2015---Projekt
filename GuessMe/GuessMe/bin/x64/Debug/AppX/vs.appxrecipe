@@ -22,13 +22,13 @@
     <AppXManifest Include="D:\Projects\GuessMe\GuessMe\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-01-31T21:25:34.092</Modified>
+      <Modified>2016-01-31T22:31:34.765</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\bin\x64\Debug\GuessMe.exe">
       <PackagePath>entrypoint\GuessMe.exe</PackagePath>
-      <Modified>2016-01-31T21:25:33.485</Modified>
+      <Modified>2016-01-31T22:22:21.846</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -468,37 +468,37 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2015-10-10T20:09:42.000</Modified>
+      <Modified>2016-01-31T22:29:14.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T20:09:42.000</Modified>
+      <Modified>2016-01-31T22:29:14.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T20:09:42.000</Modified>
+      <Modified>2016-01-31T22:29:14.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T20:09:42.000</Modified>
+      <Modified>2016-01-31T22:29:14.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T20:09:42.000</Modified>
+      <Modified>2016-01-31T22:29:14.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T20:09:42.000</Modified>
+      <Modified>2016-01-31T22:29:14.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T20:09:42.000</Modified>
+      <Modified>2016-01-31T22:29:14.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\bin\x64\Debug\GuessMe.xr.xml">
       <PackagePath>GuessMe.xr.xml</PackagePath>
@@ -510,11 +510,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-01-31T21:25:34.001</Modified>
+      <Modified>2016-01-31T22:22:22.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\bin\x64\Debug\Core\GuessMe.exe">
       <PackagePath>GuessMe.exe</PackagePath>
-      <Modified>2016-01-31T21:25:34.090</Modified>
+      <Modified>2016-01-31T22:31:34.763</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

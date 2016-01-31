@@ -1,0 +1,105 @@
+skorbut|2|1|1|1
+implemetacija|1|1|1|1
+ratoborno|1|1|1|1
+distribucija|1|1|1|1
+bitumen|2|1|1|1
+gospodar vremena|1|1|1|1
+proleterijat|2|1|1|1
+dretva|2|1|1|1
+stradati|1|1|1|1
+dementor|1|1|1|1
+bazilisk|1|1|1|1
+identitet|1|1|1|1
+žezlo|1|1|1|1
+katkovidnost|1|1|1|1
+hobit|0|1|1|1
+recepcija|1|1|1|1
+mirisni štapić|1|1|1|1
+simulacija|1|1|1|1
+transformator|1|1|1|1
+kameni puder|1|1|1|1
+snob|1|1|1|1
+praskozorje|1|1|1|1
+nahuškati|1|1|1|1
+neznanac|0|1|1|1
+nepogrešivost|1|1|1|1
+histerični napadaj|1|1|1|1
+zagroban život|1|1|1|1
+armagedon|1|1|1|1
+korzet|1|1|1|1
+fizikalni zakoni|1|1|1|1
+baciti u vjetar|1|1|1|1
+plodonosan|1|1|1|1
+prokarioti|1|1|1|1
+luciferin|1|1|1|1
+njihalo|0|1|1|1
+antimaterija|0|1|1|1
+hijerarhijska struktura|2|1|1|1
+prekidač|1|1|1|1
+izdubiti|1|1|1|1
+patliđan|1|1|1|1
+komunizam|1|1|1|1
+zavodljiv osmijeh|0|1|1|1
+kompresija|1|1|1|1
+plišana igračka|0|1|1|1
+baza podataka|0|1|1|1
+sazviježđe|1|1|1|1
+balzam|1|1|1|1
+ornament|1|1|1|1
+katakombe|1|1|1|1
+ion|0|1|1|1
+goblin|1|1|1|1
+vrganj|1|1|1|1
+ljudožder|0|1|1|1
+ekvilibrij|1|1|1|1
+vagabond|2|1|1|1
+smisao života|1|1|1|1
+tilda|1|1|1|1
+amajlija|1|1|1|1
+volframova nit|1|1|1|1
+redundantno|1|1|1|1
+stanovništvo|0|1|1|1
+lugarnica|2|1|1|1
+ceker|2|1|1|1
+organiski|0|1|1|1
+mitohondrij|1|1|1|1
+propan|2|1|1|1
+parobrod|1|1|1|1
+brodogradilište|0|1|1|1
+kamenolom|0|1|1|1
+kokošinjac|0|1|1|1
+odvod|2|1|1|1
+kišnica|2|1|1|1
+kabanica|2|1|1|1
+kočija|0|1|1|1
+nalivpero|2|1|1|1
+palatali|0|1|1|1
+agrumi|2|1|1|1
+sipa|0|1|1|1
+kartografija|2|1|1|1
+koaksijalni kabel|2|1|1|1
+parica|0|1|1|1
+glija stanice|2|1|1|1
+micelij|2|1|1|1
+polisaharidi|2|1|1|1
+modra galica|2|1|1|1
+entropija|2|1|1|1
+trbuhozborac|0|1|1|1
+polarna svjetlost|1|1|1|1
+impuls|0|1|1|1
+paralelepipedi|2|1|1|1
+supstitucija|0|1|1|1
+zodijak|0|1|1|1
+visak|2|1|1|1
+inflacije|0|1|1|1
+epicentar|0|1|1|1
+seizmograf|0|1|1|1
+tektonske ploče|2|1|1|1
+indijska lađica|2|1|1|1
+konoplja|0|1|1|1
+motka|2|1|1|1
+karoserija|2|1|1|1
+šasija|2|1|1|1
+bedem|2|1|1|1
+klas|2|1|1|1
+stanovnik|2|1|1|1
