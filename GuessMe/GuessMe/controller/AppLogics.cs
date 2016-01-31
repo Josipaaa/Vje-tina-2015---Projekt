@@ -9,6 +9,7 @@ namespace GuessMe.controller {
     public static class AppLogics {
 
         private static HashSet<Word> hash = new HashSet<Word>();
+        public static Queue<Team> teams;
 
         public async static void addWord(Word word) {
             string term = word.Term + "|";

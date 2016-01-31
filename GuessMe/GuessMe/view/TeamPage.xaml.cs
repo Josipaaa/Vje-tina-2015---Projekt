@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GuessMe.controller;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -70,6 +71,8 @@ namespace GuessMe {
                 Frame rootFrame = Window.Current.Content as Frame;
                 rootFrame.Navigate(typeof(MainPage));
             } else {
+                Team t = AppLogics.teams.Dequeue();
+                AppLogics.teams.Enqueue(t);
                 Frame rootFrame = Window.Current.Content as Frame;
                 rootFrame.Navigate(typeof(GamePage));
             }

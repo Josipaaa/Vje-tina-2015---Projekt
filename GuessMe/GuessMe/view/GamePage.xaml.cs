@@ -23,7 +23,7 @@ namespace GuessMe {
     public sealed partial class GamePage : Page {
         //timer
         DispatcherTimer timer = new DispatcherTimer();
-        public static List<Team> teams;
+        List<string> words;
         int secondscount = 0;
         int startTime = 60;
         DifficultyEnum d;
@@ -41,7 +41,7 @@ namespace GuessMe {
 
             SecondsTextBlock.Text = startTime.ToString();
 
-            List<string> words = fetchWords();
+            words = fetchWords();
 
 
             prvaRijecCheck.Content = words.ElementAt(0);
@@ -61,11 +61,9 @@ namespace GuessMe {
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e) {
-            //game has just started
-            if (e.Parameter is List<Team>) {
-                teams = (List<Team>)e.Parameter;
-                CurrentTeam.Text = teams.ElementAt(0).TeamName;
-            }
+
+            CurrentTeam.Text = AppLogics.teams.ElementAt(AppLogics.teams.Peek().Identifikator).TeamName;
+
         }
 
         private void Secondstimer_Tick(object sender, object e) {
@@ -112,7 +110,26 @@ namespace GuessMe {
 
         private void OK_Click(object sender, RoutedEventArgs e) {
             Frame rootFrame = Window.Current.Content as Frame;
-            rootFrame.Navigate(typeof(TeamPage), teams);
+
+            //calculate team points - 1 easy, 2 medium, 3 hard, time bonus
+            timer.Stop();
+            int points = 0;
+            if (prvaRijecCheck.IsChecked == true)
+                points += findDifficulty(words.ElementAt(0));
+
+            if (drugaRijecCheck.IsChecked == true)
+                points += findDifficulty(words.ElementAt(1));
+            if (trecaRijecCheck.IsChecked == true)
+                points += findDifficulty(words.ElementAt(2));
+            if (cetvrtaRijecCheck.IsChecked == true)
+                points += findDifficulty(words.ElementAt(3));
+            if (petaRijecCheck.IsChecked == true)
+                points += findDifficulty(words.ElementAt(4));
+
+            //time bonus - 1 point for every 10 seconds
+            points += (startTime - secondscount) / 10;
+            AppLogics.teams.ElementAt(0).Points += points;
+            rootFrame.Navigate(typeof(TeamPage));
         }
 
         private List<string> fetchWords() {
@@ -220,6 +237,19 @@ namespace GuessMe {
                 }
                 return words;
             }
+        }
+        private int findDifficulty(string word) {
+            HashSet<Word> hash = AppLogics.getAll();
+
+            Word w = hash.Single(i => i.Term == word);
+
+            if (w.Difficulty == DifficultyEnum.EASY)
+                return 1;
+            if (w.Difficulty == DifficultyEnum.MEDIUM)
+                return 2;
+            if (w.Difficulty == DifficultyEnum.HARD)
+                return 3;
+            return 0;
         }
     }
 }

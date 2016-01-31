@@ -9,11 +9,11 @@ namespace GuessMe {
 
         public string TeamName { get; set; }
         public float Points { get; set; }
-        public int Guessed { get; set; }
-        public int NotGuessed { get; set;}
+        public int Identifikator { get; set; }
 
-        public Team(string TeamName) {
+        public Team(string TeamName, int Identifikator) {
             this.TeamName = TeamName;
+            this.Identifikator = Identifikator;
         }
     }
 }

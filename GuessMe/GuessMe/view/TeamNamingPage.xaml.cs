@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GuessMe.controller;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,7 +23,6 @@ namespace GuessMe {
     /// </summary>
     /// 
     public sealed partial class TeamNamingPage : Page {
-        public static List<Team> teams;
         public TeamNamingPage() {
             this.InitializeComponent();
                     
@@ -50,26 +50,26 @@ namespace GuessMe {
 
         private void OK_Click(object sender, RoutedEventArgs e) {
             Frame rootFrame = Window.Current.Content as Frame;
-            teams = new List<Team>();
-            teams.Add(new Team(Team1Name.Text));
-            teams.Add(new Team(Team2Name.Text));
+            AppLogics.teams = new Queue<Team>();
+            AppLogics.teams.Enqueue(new Team(Team1Name.Text,0));
+            AppLogics.teams.Enqueue(new Team(Team2Name.Text,1));
 
             if(Team3Name.IsEnabled)
-                teams.Add(new Team(Team3Name.Text));
+                AppLogics.teams.Enqueue(new Team(Team3Name.Text,2));
             if (Team4Name.IsEnabled)
-                teams.Add(new Team(Team4Name.Text));
+                AppLogics.teams.Enqueue(new Team(Team4Name.Text,3));
             if (Team5Name.IsEnabled)
-                teams.Add(new Team(Team5Name.Text));
+                AppLogics.teams.Enqueue(new Team(Team5Name.Text,4));
 
             for(int i = 0; i < teamNum; i++)
             {
                 
-                if (!teamInputCheck(teams.ElementAt(i).TeamName))
+                if (!teamInputCheck(AppLogics.teams.ElementAt(i).TeamName))
                 {
-                    teams.ElementAt(i).TeamName = "Team " + (i+1);
+                    AppLogics.teams.ElementAt(i).TeamName = "Team " + (i+1);
                 }
             }
-            rootFrame.Navigate(typeof(GamePage), teams);
+            rootFrame.Navigate(typeof(GamePage));
         }
 
         private bool teamInputCheck(string team)
