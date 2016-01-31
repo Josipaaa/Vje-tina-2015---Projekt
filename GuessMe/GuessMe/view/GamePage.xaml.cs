@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using GuessMe.controller;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -21,23 +22,24 @@ namespace GuessMe {
     /// </summary>
     public sealed partial class GamePage : Page {
         //timer
-        DispatcherTimer timer = new DispatcherTimer(); 
+        DispatcherTimer timer = new DispatcherTimer();
         public static List<Team> teams;
         int secondscount = 0;
         int startTime = 60;
-
+        DifficultyEnum d;
         public GamePage() {
             this.InitializeComponent();
 
             timer.Interval = new TimeSpan(0, 0, 1);
             timer.Tick += Secondstimer_Tick;
 
-            string diff = PlayPage.difficulty.ToString();
-           
+            d = PlayPage.difficulty;
+            string diff = d.ToString();
+
             if (diff.Equals("EXTREME"))
                 startTime = 30;
             SecondsTextBlock.Text = startTime.ToString();
-            timer.Start();
+            
 
         }
 
@@ -54,7 +56,7 @@ namespace GuessMe {
         private void Secondstimer_Tick(object sender, object e) {
             secondscount++;
             SecondsTextBlock.Text = (startTime - secondscount % 60).ToString();
-           
+
         }
         private void Back_Click(object sender, RoutedEventArgs e) {
             Frame rootFrame = Window.Current.Content as Frame;
@@ -66,9 +68,25 @@ namespace GuessMe {
             rootFrame.Navigate(typeof(TeamPage));
         }
 
-        private void fetchWords()
+        private void Start_Click(object sender, RoutedEventArgs e)
         {
-
+            if (Start.IsPressed)
+                timer.Start();
+        }
+        private List<string> fetchWords()
+        {
+            List<string> w = new List<string>();
+            HashSet<Word> words = AppLogics.getAllDifficulty(d);
+            Random random = new Random();
+            
+            for(int i = 0; i < 5; i++)
+            {
+                string str = words.ElementAt(random.Next(words.Count)).Term;
+                if (w.Contains(str))
+                    i--;
+                else w.Add(str);
+            }
+            return w;
         }
     }
 }

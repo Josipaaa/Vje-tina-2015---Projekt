@@ -33,6 +33,17 @@ namespace GuessMe.controller {
             return null;
         }
 
+        public static HashSet<Word> getAllDifficulty(DifficultyEnum diff)
+        {
+            HashSet<Word> words = new HashSet<Word>();
+            foreach(Word w in hash)
+            {
+                if (w.Difficulty.Equals(diff))
+                    words.Add(w);
+            }
+            return words;
+        }
+
         public static void init() {
             string[] lines = File.ReadAllLines(@"WordBase.txt", Encoding.UTF8);
           
