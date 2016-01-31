@@ -58,7 +58,7 @@ namespace GuessMe.controller {
             HashSet<Word> words = new HashSet<Word>();
             foreach(Word w in hash)
             {
-                if (w.Difficulty.Equals(diff))
+                if (w.Difficulty.ToString().Equals(diff.ToString()))
                     words.Add(w);
             }
             return words;

@@ -1,1 +1,1 @@
-D:\Projects\GuessMe\GuessMe\GuessMe.csproj;x86
+C:\Users\Stella\Documents\Vje-tina-2015---Projekt\GuessMe\GuessMe\GuessMe.csproj;x86

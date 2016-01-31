@@ -22,7 +22,7 @@ namespace GuessMe {
     /// </summary>
     /// 
     public sealed partial class TeamNamingPage : Page {
-        public static List<Team> teams = new List<Team>();
+        public static List<Team> teams;
         public TeamNamingPage() {
             this.InitializeComponent();
                     
@@ -50,7 +50,7 @@ namespace GuessMe {
 
         private void OK_Click(object sender, RoutedEventArgs e) {
             Frame rootFrame = Window.Current.Content as Frame;
-
+            teams = new List<Team>();
             teams.Add(new Team(Team1Name.Text));
             teams.Add(new Team(Team2Name.Text));
 

@@ -58,4 +58,4 @@ tilda|1|1|1|1
 amajlija|1|1|1|1
 volframova nit|1|1|1|1
 redundantno|1|1|1|1
-stanovništvo|1|1|1|1
+stanovništvo|1|1|1|1lugarnica|2|1|1|1
