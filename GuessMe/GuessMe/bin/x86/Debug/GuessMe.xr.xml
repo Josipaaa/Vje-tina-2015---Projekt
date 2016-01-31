@@ -39,8 +39,8 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Background" />
       <RootProperty Name="BorderBrush" />
-      <RootProperty Name="FontSize" />
       <RootProperty Name="Width" />
+      <RootProperty Name="FontSize" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="GuessMe.AboutPage" />
