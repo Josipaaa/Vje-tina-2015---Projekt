@@ -20,10 +20,42 @@ namespace GuessMe {
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
     public sealed partial class GamePage : Page {
+        //timer
+        DispatcherTimer timer = new DispatcherTimer(); 
+        public static List<Team> teams;
+        int secondscount = 0;
+        int startTime = 60;
+
         public GamePage() {
             this.InitializeComponent();
+
+            timer.Interval = new TimeSpan(0, 0, 1);
+            timer.Tick += Secondstimer_Tick;
+
+            string diff = PlayPage.difficulty.ToString();
+           
+            if (diff.Equals("EXTREME"))
+                startTime = 30;
+            SecondsTextBlock.Text = startTime.ToString();
+            timer.Start();
+
         }
 
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            //game has just started
+            if (e.Parameter is List<Team>)
+            {
+                teams = (List<Team>)e.Parameter;
+                CurrentTeam.Text = teams.ElementAt(0).TeamName;
+            }
+        }
+
+        private void Secondstimer_Tick(object sender, object e) {
+            secondscount++;
+            SecondsTextBlock.Text = (startTime - secondscount % 60).ToString();
+           
+        }
         private void Back_Click(object sender, RoutedEventArgs e) {
             Frame rootFrame = Window.Current.Content as Frame;
             rootFrame.Navigate(typeof(TeamNamingPage));
@@ -32,6 +64,11 @@ namespace GuessMe {
         private void OK_Click(object sender, RoutedEventArgs e) {
             Frame rootFrame = Window.Current.Content as Frame;
             rootFrame.Navigate(typeof(TeamPage));
+        }
+
+        private void fetchWords()
+        {
+
         }
     }
 }

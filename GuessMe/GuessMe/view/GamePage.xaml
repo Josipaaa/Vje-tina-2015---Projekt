@@ -23,6 +23,8 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <TextBlock x:Name="Game" Margin="80,62,80,0" TextWrapping="Wrap" Text="Game" FontSize="29.333" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="40" FontWeight="Bold" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="CurrentTeam" Margin="0,200,80,0" TextWrapping="Wrap" Text="" FontSize="29.333" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="40" FontWeight="Bold" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="SecondsTextBlock" Margin="80,150,80,0" TextWrapping="Wrap" Text="{Binding DispatcherTimer,UpdateSourceTrigger=PropertyChanged}" FontSize="29.333" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="40" FontWeight="Bold" Grid.ColumnSpan="2" />
         <Button x:Name="Next" Content="Next" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Center" Height="60" Background="#3FFFFFFF" BorderBrush="#FFB7CFEC" Grid.Row="1" Grid.Column="1" Click="OK_Click"/>
         <Button x:Name="Back" Content="Back" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Center" Height="60" Background="#3FFFFFFF" Click="Back_Click" BorderBrush="#FFB7CFEC" Grid.Row="1"/>
     </Grid>

@@ -19,6 +19,7 @@ namespace GuessMe {
 
         public Team(string TeamName) {
             _teamName = TeamName;
+            this.TeamName = TeamName;
         }
     }
 }

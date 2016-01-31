@@ -17,7 +17,7 @@ namespace GuessMe.controller {
         }
         
         private static void addToFile(string term) {
-            File.AppendAllText(@"D:\Projects\GuessMe\GuessMe\WordBase.txt",
+            File.AppendAllText(@"WordBase.txt",
             term + Environment.NewLine);
         }
 
@@ -34,7 +34,7 @@ namespace GuessMe.controller {
         }
 
         public static void init() {
-            string[] lines = File.ReadAllLines(@"D:\Projects\GuessMe\GuessMe\WordBase.txt", Encoding.UTF8);
+            string[] lines = File.ReadAllLines(@"WordBase.txt", Encoding.UTF8);
           
             foreach (string s in lines) {
                 var parts = s.Split('|');

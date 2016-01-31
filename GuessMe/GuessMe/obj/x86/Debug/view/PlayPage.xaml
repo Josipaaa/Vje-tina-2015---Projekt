@@ -31,7 +31,7 @@
         <TextBlock x:ConnectionId='7' x:Name="Difficulty" HorizontalAlignment="Left" Margin="20,320,0,0" TextWrapping="Wrap" Text="Difficulty:" VerticalAlignment="Top" Width="150" Height="40" FontSize="18.667" Grid.ColumnSpan="2"/>
         <Button x:ConnectionId='8' x:Name="OK" Content="OK" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Center" Height="60" Background="#3FFFFFFF" BorderBrush="#FFB7CFEC" Grid.Row="1" Grid.Column="1"                 />
         <Button x:ConnectionId='9' x:Name="Back" Content="Back" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Center" Height="60" Background="#3FFFFFFF"                    BorderBrush="#FFB7CFEC" Grid.Row="1"/>
-        <RadioButton x:ConnectionId='10' x:Name="Meduim" Content="Medium" HorizontalAlignment="Center" Margin="0,360,0,0" VerticalAlignment="Top" GroupName="Difficulty" Grid.Column="1"/>
+        <RadioButton x:ConnectionId='10' x:Name="Medium" Content="Medium" HorizontalAlignment="Center" Margin="0,360,0,0" VerticalAlignment="Top" GroupName="Difficulty" Grid.Column="1"/>
         <RadioButton x:ConnectionId='11' x:Name="Hard" Content="Hard" HorizontalAlignment="Right" Margin="0,420,0,0" VerticalAlignment="Top" GroupName="Difficulty"/>
         <RadioButton x:ConnectionId='12' x:Name="Easy" Content="Easy" HorizontalAlignment="Right" Margin="0,360,0,0" VerticalAlignment="Top" IsChecked="True" GroupName="Difficulty" FontFamily="Segoe UI" FontSize="15"/>
         <RadioButton x:ConnectionId='13' x:Name="Extreme" Content="Extreme" HorizontalAlignment="Center" Margin="0,420,0,0" VerticalAlignment="Top" GroupName="Difficulty" Grid.Column="1"/>

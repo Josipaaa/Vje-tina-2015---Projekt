@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="DispatcherTimer" />
+  </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
       <RootProperty Name="RequestedTheme" />
@@ -86,6 +89,9 @@
       <RootProperty Name="FontSize" />
     </RootType>
     <RootType FullName="GuessMe.AddWordPage" />
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="UpdateSourceTrigger" />
+    </RootType>
     <RootType FullName="GuessMe.GamePage" />
     <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
       <RootProperty Name="Color" />
