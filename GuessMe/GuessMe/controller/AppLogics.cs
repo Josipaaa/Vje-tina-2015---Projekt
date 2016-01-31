@@ -11,14 +11,34 @@ namespace GuessMe.controller {
         private static HashSet<Word> hash = new HashSet<Word>();
 
         public async static void addWord(Word word) {
-            hash.Add(word);
-            string term = word.Term + "|" + word.Difficulty + "|" + word.IsGuessable + "|" + word.IsDrawable + "|" + word.IsPantomimable;
+            string term = word.Term + "|";
+            if(word.Difficulty == DifficultyEnum.MEDIUM) {
+                term = term + "1|";
+            } else {
+                term = term + "2|";
+            }
+            if(word.IsGuessable) {
+                term = term + "1|";
+            }else {
+                term = term + "0|";
+            }
+            if (word.IsDrawable) {
+                term = term + "1|";
+            } else {
+                term = term + "0|";
+            }
+            if (word.IsPantomimable) {
+                term = term + "1";
+            } else {
+                term = term + "0";
+            }
             await Task.Run(() => addToFile(term));
+            hash.Add(word);
         }
         
         private static void addToFile(string term) {
             File.AppendAllText(@"WordBase.txt",
-            term + Environment.NewLine);
+            term + Environment.NewLine, Encoding.UTF8);
         }
 
         public static HashSet<Word> getAll() {
@@ -57,6 +77,7 @@ namespace GuessMe.controller {
                     parts[2] == "0" ? false : true, parts[3] == "0" ? false : true, parts[4] == "0" ? false : true);
                 hash.Add(neu);
             }
+            
         }
     }
 

@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>THUNDERBLAZE</Machine>
-    <WindowsUser>Stella</WindowsUser>
+    <Machine>JOSIPA-PC</Machine>
+    <WindowsUser>Josipa</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>737fcae4-b0b2-4631-b7c9-e6d311fafbcd</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Stella\Documents\Vje-tina-2015---Projekt\GuessMe\GuessMe\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Projects\GuessMe\GuessMe\obj\x86\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>6FE282F2751C7986FD9A34D023BC8F03A5EA9A3D89ED94F5613F43749776A79E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>737fcae4-b0b2-4631-b7c9-e6d311fafbcd_1.0.0.0_x86__fgqssvdatrng8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>737fcae4-b0b2-4631-b7c9-e6d311fafbcd_fgqssvdatrng8!App</RegisteredUserModeAppID>
@@ -19,502 +19,502 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Stella\Documents\Vje-tina-2015---Projekt\GuessMe\GuessMe\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Projects\GuessMe\GuessMe\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-01-31T14:21:58.817</Modified>
+      <Modified>2016-01-31T15:02:40.461</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Stella\Documents\Vje-tina-2015---Projekt\GuessMe\GuessMe\bin\x86\Debug\GuessMe.exe">
+    <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\bin\x86\Debug\GuessMe.exe">
       <PackagePath>entrypoint\GuessMe.exe</PackagePath>
-      <Modified>2016-01-31T14:21:58.613</Modified>
+      <Modified>2016-01-31T15:02:40.273</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
-      <Modified>2016-01-29T15:53:39.112</Modified>
+      <Modified>2015-12-11T16:52:02.459</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\Microsoft.ApplicationInsights.PersistenceChannel\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.PersistenceChannel.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.ApplicationInsights.PersistenceChannel\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.PersistenceChannel.dll">
       <PackagePath>Microsoft.ApplicationInsights.PersistenceChannel.dll</PackagePath>
-      <Modified>2016-01-29T15:53:36.975</Modified>
+      <Modified>2015-12-11T16:52:02.615</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\Microsoft.ApplicationInsights.WindowsApps\1.0.0\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.ApplicationInsights.WindowsApps\1.0.0\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
       <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.dll</PackagePath>
-      <Modified>2016-01-29T15:53:36.707</Modified>
+      <Modified>2015-12-11T16:52:02.662</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
-      <Modified>2016-01-29T15:53:53.729</Modified>
+      <Modified>2015-12-11T16:52:04.107</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
       <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
-      <Modified>2016-01-29T15:53:38.686</Modified>
+      <Modified>2015-12-11T16:52:03.776</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Core.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Core.dll">
       <PackagePath>System.Core.dll</PackagePath>
-      <Modified>2016-01-29T15:53:38.713</Modified>
+      <Modified>2015-12-11T16:52:03.776</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.dll">
       <PackagePath>System.dll</PackagePath>
-      <Modified>2016-01-29T15:53:38.737</Modified>
+      <Modified>2015-12-11T16:52:03.776</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Net.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Net.dll">
       <PackagePath>System.Net.dll</PackagePath>
-      <Modified>2016-01-29T15:53:38.771</Modified>
+      <Modified>2015-12-11T16:52:03.791</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Numerics.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Numerics.dll">
       <PackagePath>System.Numerics.dll</PackagePath>
-      <Modified>2016-01-29T15:53:38.960</Modified>
+      <Modified>2015-12-11T16:52:03.791</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Runtime.Serialization.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Runtime.Serialization.dll">
       <PackagePath>System.Runtime.Serialization.dll</PackagePath>
-      <Modified>2016-01-29T15:53:38.970</Modified>
+      <Modified>2015-12-11T16:52:03.791</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.ServiceModel.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.ServiceModel.dll">
       <PackagePath>System.ServiceModel.dll</PackagePath>
-      <Modified>2016-01-29T15:53:39.062</Modified>
+      <Modified>2015-12-11T16:52:03.791</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.ServiceModel.Web.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.ServiceModel.Web.dll">
       <PackagePath>System.ServiceModel.Web.dll</PackagePath>
-      <Modified>2016-01-29T15:53:39.101</Modified>
+      <Modified>2015-12-11T16:52:03.791</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Windows.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Windows.dll">
       <PackagePath>System.Windows.dll</PackagePath>
-      <Modified>2016-01-29T15:53:39.110</Modified>
+      <Modified>2015-12-11T16:52:03.791</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Xml.dll">
       <PackagePath>System.Xml.dll</PackagePath>
-      <Modified>2016-01-29T15:53:39.120</Modified>
+      <Modified>2015-12-11T16:52:03.791</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Xml.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Xml.Linq.dll">
       <PackagePath>System.Xml.Linq.dll</PackagePath>
-      <Modified>2016-01-29T15:53:39.191</Modified>
+      <Modified>2015-12-11T16:52:03.791</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Xml.Serialization.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Xml.Serialization.dll">
       <PackagePath>System.Xml.Serialization.dll</PackagePath>
-      <Modified>2016-01-29T15:53:39.237</Modified>
+      <Modified>2015-12-11T16:52:03.791</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\Microsoft.VisualBasic\10.0.0\lib\netcore50\Microsoft.VisualBasic.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.VisualBasic\10.0.0\lib\netcore50\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
-      <Modified>2016-01-29T15:53:53.706</Modified>
+      <Modified>2015-12-11T16:52:04.018</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\Microsoft.Win32.Primitives\4.0.0\lib\dotnet\Microsoft.Win32.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\Microsoft.Win32.Primitives\4.0.0\lib\dotnet\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
-      <Modified>2016-01-29T15:53:38.745</Modified>
+      <Modified>2015-12-11T16:52:02.975</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.AppContext\4.0.0\lib\netcore50\System.AppContext.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.AppContext\4.0.0\lib\netcore50\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
-      <Modified>2016-01-29T15:53:51.240</Modified>
+      <Modified>2015-12-11T16:52:03.822</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Collections\4.0.10\lib\netcore50\System.Collections.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Collections\4.0.10\lib\netcore50\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
-      <Modified>2016-01-29T15:53:53.796</Modified>
+      <Modified>2015-12-11T16:52:04.155</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Collections.Concurrent\4.0.10\lib\dotnet\System.Collections.Concurrent.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Collections.Concurrent\4.0.10\lib\dotnet\System.Collections.Concurrent.dll">
       <PackagePath>System.Collections.Concurrent.dll</PackagePath>
-      <Modified>2016-01-29T15:53:51.639</Modified>
+      <Modified>2015-12-11T16:52:03.956</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Collections.Immutable\1.1.37\lib\dotnet\System.Collections.Immutable.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Collections.Immutable\1.1.37\lib\dotnet\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
-      <Modified>2016-01-29T15:53:51.650</Modified>
+      <Modified>2015-12-11T16:52:04.108</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Collections.NonGeneric\4.0.0\lib\dotnet\System.Collections.NonGeneric.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Collections.NonGeneric\4.0.0\lib\dotnet\System.Collections.NonGeneric.dll">
       <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
-      <Modified>2016-01-29T15:53:36.439</Modified>
+      <Modified>2015-12-11T16:52:03.069</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Collections.Specialized\4.0.0\lib\dotnet\System.Collections.Specialized.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Collections.Specialized\4.0.0\lib\dotnet\System.Collections.Specialized.dll">
       <PackagePath>System.Collections.Specialized.dll</PackagePath>
-      <Modified>2016-01-29T15:53:36.227</Modified>
+      <Modified>2015-12-11T16:52:02.928</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.ComponentModel\4.0.0\lib\netcore50\System.ComponentModel.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.ComponentModel\4.0.0\lib\netcore50\System.ComponentModel.dll">
       <PackagePath>System.ComponentModel.dll</PackagePath>
-      <Modified>2016-01-29T15:53:49.519</Modified>
+      <Modified>2015-12-11T16:52:03.905</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.ComponentModel.Annotations\4.0.10\lib\dotnet\System.ComponentModel.Annotations.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.ComponentModel.Annotations\4.0.10\lib\dotnet\System.ComponentModel.Annotations.dll">
       <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
-      <Modified>2016-01-29T15:53:50.678</Modified>
+      <Modified>2015-12-11T16:52:03.950</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.ComponentModel.EventBasedAsync\4.0.10\lib\dotnet\System.ComponentModel.EventBasedAsync.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.ComponentModel.EventBasedAsync\4.0.10\lib\dotnet\System.ComponentModel.EventBasedAsync.dll">
       <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
-      <Modified>2016-01-29T15:53:40.400</Modified>
+      <Modified>2015-12-11T16:52:03.037</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Data.Common\4.0.0\lib\dotnet\System.Data.Common.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Data.Common\4.0.0\lib\dotnet\System.Data.Common.dll">
       <PackagePath>System.Data.Common.dll</PackagePath>
-      <Modified>2016-01-29T15:53:40.838</Modified>
+      <Modified>2015-12-11T16:52:03.209</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Diagnostics.Contracts\4.0.0\lib\netcore50\System.Diagnostics.Contracts.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Diagnostics.Contracts\4.0.0\lib\netcore50\System.Diagnostics.Contracts.dll">
       <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
-      <Modified>2016-01-29T15:53:37.800</Modified>
+      <Modified>2015-12-11T16:52:03.084</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Diagnostics.Debug\4.0.10\lib\netcore50\System.Diagnostics.Debug.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Diagnostics.Debug\4.0.10\lib\netcore50\System.Diagnostics.Debug.dll">
       <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
-      <Modified>2016-01-29T15:53:52.676</Modified>
+      <Modified>2015-12-11T16:52:03.948</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Diagnostics.StackTrace\4.0.0\lib\netcore50\System.Diagnostics.StackTrace.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Diagnostics.StackTrace\4.0.0\lib\netcore50\System.Diagnostics.StackTrace.dll">
       <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
-      <Modified>2016-01-29T15:53:38.733</Modified>
+      <Modified>2015-12-11T16:52:03.131</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Diagnostics.Tools\4.0.0\lib\netcore50\System.Diagnostics.Tools.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Diagnostics.Tools\4.0.0\lib\netcore50\System.Diagnostics.Tools.dll">
       <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
-      <Modified>2016-01-29T15:53:50.832</Modified>
+      <Modified>2015-12-11T16:52:03.917</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Diagnostics.Tracing\4.0.20\lib\netcore50\System.Diagnostics.Tracing.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Diagnostics.Tracing\4.0.20\lib\netcore50\System.Diagnostics.Tracing.dll">
       <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
-      <Modified>2016-01-29T15:53:51.793</Modified>
+      <Modified>2015-12-11T16:52:04.064</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Dynamic.Runtime\4.0.10\lib\netcore50\System.Dynamic.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Dynamic.Runtime\4.0.10\lib\netcore50\System.Dynamic.Runtime.dll">
       <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
-      <Modified>2016-01-29T15:53:51.938</Modified>
+      <Modified>2015-12-11T16:52:04.301</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Globalization\4.0.10\lib\netcore50\System.Globalization.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Globalization\4.0.10\lib\netcore50\System.Globalization.dll">
       <PackagePath>System.Globalization.dll</PackagePath>
-      <Modified>2016-01-29T15:53:48.598</Modified>
+      <Modified>2015-12-11T16:52:04.232</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Globalization.Calendars\4.0.0\lib\netcore50\System.Globalization.Calendars.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Globalization.Calendars\4.0.0\lib\netcore50\System.Globalization.Calendars.dll">
       <PackagePath>System.Globalization.Calendars.dll</PackagePath>
-      <Modified>2016-01-29T15:53:51.799</Modified>
+      <Modified>2015-12-11T16:52:04.171</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Globalization.Extensions\4.0.0\lib\dotnet\System.Globalization.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Globalization.Extensions\4.0.0\lib\dotnet\System.Globalization.Extensions.dll">
       <PackagePath>System.Globalization.Extensions.dll</PackagePath>
-      <Modified>2016-01-29T15:53:50.605</Modified>
+      <Modified>2015-12-11T16:52:04.140</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.IO\4.0.10\lib\netcore50\System.IO.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.IO\4.0.10\lib\netcore50\System.IO.dll">
       <PackagePath>System.IO.dll</PackagePath>
-      <Modified>2016-01-29T15:53:47.952</Modified>
+      <Modified>2015-12-11T16:52:04.404</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.IO.Compression\4.0.0\lib\netcore50\System.IO.Compression.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.IO.Compression\4.0.0\lib\netcore50\System.IO.Compression.dll">
       <PackagePath>System.IO.Compression.dll</PackagePath>
-      <Modified>2016-01-29T15:53:49.861</Modified>
+      <Modified>2015-12-11T16:52:04.388</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.IO.Compression.clrcompression-x86\4.0.0\runtimes\win10-x86\native\ClrCompression.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.IO.Compression.clrcompression-x86\4.0.0\runtimes\win10-x86\native\ClrCompression.dll">
       <PackagePath>ClrCompression.dll</PackagePath>
-      <Modified>2016-01-29T15:55:04.357</Modified>
+      <Modified>2015-12-11T16:52:05.096</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.IO.Compression.ZipFile\4.0.0\lib\dotnet\System.IO.Compression.ZipFile.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.IO.Compression.ZipFile\4.0.0\lib\dotnet\System.IO.Compression.ZipFile.dll">
       <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
-      <Modified>2016-01-29T15:53:50.700</Modified>
+      <Modified>2015-12-11T16:52:04.252</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.IO.FileSystem\4.0.0\lib\netcore50\System.IO.FileSystem.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.IO.FileSystem\4.0.0\lib\netcore50\System.IO.FileSystem.dll">
       <PackagePath>System.IO.FileSystem.dll</PackagePath>
-      <Modified>2016-01-29T15:53:48.246</Modified>
+      <Modified>2015-12-11T16:52:04.705</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.IO.FileSystem.Primitives\4.0.0\lib\dotnet\System.IO.FileSystem.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.IO.FileSystem.Primitives\4.0.0\lib\dotnet\System.IO.FileSystem.Primitives.dll">
       <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
-      <Modified>2016-01-29T15:53:48.119</Modified>
+      <Modified>2015-12-11T16:52:04.357</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.IO.IsolatedStorage\4.0.0\lib\netcore50\System.IO.IsolatedStorage.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.IO.IsolatedStorage\4.0.0\lib\netcore50\System.IO.IsolatedStorage.dll">
       <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
-      <Modified>2016-01-29T15:53:38.396</Modified>
+      <Modified>2015-12-11T16:52:03.178</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.IO.UnmanagedMemoryStream\4.0.0\lib\dotnet\System.IO.UnmanagedMemoryStream.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.IO.UnmanagedMemoryStream\4.0.0\lib\dotnet\System.IO.UnmanagedMemoryStream.dll">
       <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
-      <Modified>2016-01-29T15:53:48.665</Modified>
+      <Modified>2015-12-11T16:52:04.475</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Linq\4.0.0\lib\netcore50\System.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Linq\4.0.0\lib\netcore50\System.Linq.dll">
       <PackagePath>System.Linq.dll</PackagePath>
-      <Modified>2016-01-29T15:53:48.130</Modified>
+      <Modified>2015-12-11T16:52:04.614</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Linq.Expressions\4.0.10\lib\netcore50\System.Linq.Expressions.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Linq.Expressions\4.0.10\lib\netcore50\System.Linq.Expressions.dll">
       <PackagePath>System.Linq.Expressions.dll</PackagePath>
-      <Modified>2016-01-29T15:53:54.789</Modified>
+      <Modified>2015-12-11T16:52:04.768</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Linq.Parallel\4.0.0\lib\netcore50\System.Linq.Parallel.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Linq.Parallel\4.0.0\lib\netcore50\System.Linq.Parallel.dll">
       <PackagePath>System.Linq.Parallel.dll</PackagePath>
-      <Modified>2016-01-29T15:53:53.859</Modified>
+      <Modified>2015-12-11T16:52:04.721</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Linq.Queryable\4.0.0\lib\netcore50\System.Linq.Queryable.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Linq.Queryable\4.0.0\lib\netcore50\System.Linq.Queryable.dll">
       <PackagePath>System.Linq.Queryable.dll</PackagePath>
-      <Modified>2016-01-29T15:53:48.604</Modified>
+      <Modified>2015-12-11T16:52:04.690</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Net.Http\4.0.0\lib\netcore50\System.Net.Http.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Net.Http\4.0.0\lib\netcore50\System.Net.Http.dll">
       <PackagePath>System.Net.Http.dll</PackagePath>
-      <Modified>2016-01-29T15:53:54.603</Modified>
+      <Modified>2015-12-11T16:52:04.768</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Net.Http.Rtc\4.0.0\lib\netcore50\System.Net.Http.Rtc.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Net.Http.Rtc\4.0.0\lib\netcore50\System.Net.Http.Rtc.dll">
       <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
-      <Modified>2016-01-29T15:53:38.243</Modified>
+      <Modified>2015-12-11T16:52:03.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Net.NetworkInformation\4.0.0\lib\netcore50\System.Net.NetworkInformation.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Net.NetworkInformation\4.0.0\lib\netcore50\System.Net.NetworkInformation.dll">
       <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
-      <Modified>2016-01-29T15:53:50.477</Modified>
+      <Modified>2015-12-11T16:52:04.649</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Net.Primitives\4.0.10\lib\netcore50\System.Net.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Net.Primitives\4.0.10\lib\netcore50\System.Net.Primitives.dll">
       <PackagePath>System.Net.Primitives.dll</PackagePath>
-      <Modified>2016-01-29T15:53:53.763</Modified>
+      <Modified>2015-12-11T16:52:04.705</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Net.Requests\4.0.10\lib\dotnet\System.Net.Requests.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Net.Requests\4.0.10\lib\dotnet\System.Net.Requests.dll">
       <PackagePath>System.Net.Requests.dll</PackagePath>
-      <Modified>2016-01-29T15:53:40.833</Modified>
+      <Modified>2015-12-11T16:52:03.240</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Net.Sockets\4.0.0\lib\netcore50\System.Net.Sockets.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Net.Sockets\4.0.0\lib\netcore50\System.Net.Sockets.dll">
       <PackagePath>System.Net.Sockets.dll</PackagePath>
-      <Modified>2016-01-29T15:53:38.731</Modified>
+      <Modified>2015-12-11T16:52:03.303</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Net.WebHeaderCollection\4.0.0\lib\dotnet\System.Net.WebHeaderCollection.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Net.WebHeaderCollection\4.0.0\lib\dotnet\System.Net.WebHeaderCollection.dll">
       <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
-      <Modified>2016-01-29T15:53:40.384</Modified>
+      <Modified>2015-12-11T16:52:03.209</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Numerics.Vectors\4.1.0\lib\dotnet\System.Numerics.Vectors.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Numerics.Vectors\4.1.0\lib\dotnet\System.Numerics.Vectors.dll">
       <PackagePath>System.Numerics.Vectors.dll</PackagePath>
-      <Modified>2016-01-29T15:53:43.464</Modified>
+      <Modified>2015-12-11T16:52:04.567</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Numerics.Vectors.WindowsRuntime\4.0.0\lib\dotnet\System.Numerics.Vectors.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Numerics.Vectors.WindowsRuntime\4.0.0\lib\dotnet\System.Numerics.Vectors.WindowsRuntime.dll">
       <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
-      <Modified>2016-01-29T15:53:36.954</Modified>
+      <Modified>2015-12-11T16:52:03.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.ObjectModel\4.0.10\lib\dotnet\System.ObjectModel.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.ObjectModel\4.0.10\lib\dotnet\System.ObjectModel.dll">
       <PackagePath>System.ObjectModel.dll</PackagePath>
-      <Modified>2016-01-29T15:53:53.332</Modified>
+      <Modified>2015-12-11T16:52:04.601</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Private.DataContractSerialization\4.0.0\lib\netcore50\System.Private.DataContractSerialization.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Private.DataContractSerialization\4.0.0\lib\netcore50\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
-      <Modified>2016-01-29T15:53:38.783</Modified>
+      <Modified>2015-12-11T16:52:03.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Private.Networking\4.0.0\lib\netcore50\System.Private.Networking.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Private.Networking\4.0.0\lib\netcore50\System.Private.Networking.dll">
       <PackagePath>System.Private.Networking.dll</PackagePath>
-      <Modified>2016-01-29T15:53:47.797</Modified>
+      <Modified>2015-12-11T16:52:03.287</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Private.ServiceModel\4.0.0\lib\netcore50\System.Private.ServiceModel.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Private.ServiceModel\4.0.0\lib\netcore50\System.Private.ServiceModel.dll">
       <PackagePath>System.Private.ServiceModel.dll</PackagePath>
-      <Modified>2016-01-29T15:53:40.895</Modified>
+      <Modified>2015-12-11T16:52:04.404</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Private.Uri\4.0.0\lib\netcore50\System.Private.Uri.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Private.Uri\4.0.0\lib\netcore50\System.Private.Uri.dll">
       <PackagePath>System.Private.Uri.dll</PackagePath>
-      <Modified>2016-01-29T15:53:36.223</Modified>
+      <Modified>2015-12-11T16:52:02.897</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Reflection\4.0.10\lib\netcore50\System.Reflection.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Reflection\4.0.10\lib\netcore50\System.Reflection.dll">
       <PackagePath>System.Reflection.dll</PackagePath>
-      <Modified>2016-01-29T15:53:40.963</Modified>
+      <Modified>2015-12-11T16:52:04.658</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Reflection.Context\4.0.0\lib\netcore50\System.Reflection.Context.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Reflection.Context\4.0.0\lib\netcore50\System.Reflection.Context.dll">
       <PackagePath>System.Reflection.Context.dll</PackagePath>
-      <Modified>2016-01-29T15:53:37.161</Modified>
+      <Modified>2015-12-11T16:52:03.272</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Reflection.DispatchProxy\4.0.0\lib\netcore50\System.Reflection.DispatchProxy.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Reflection.DispatchProxy\4.0.0\lib\netcore50\System.Reflection.DispatchProxy.dll">
       <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
-      <Modified>2016-01-29T15:53:50.469</Modified>
+      <Modified>2015-12-11T16:52:04.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Reflection.Emit\4.0.0\lib\netcore50\System.Reflection.Emit.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Reflection.Emit\4.0.0\lib\netcore50\System.Reflection.Emit.dll">
       <PackagePath>System.Reflection.Emit.dll</PackagePath>
-      <Modified>2016-01-29T15:55:04.356</Modified>
+      <Modified>2015-12-11T16:52:05.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Reflection.Emit.ILGeneration\4.0.0\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Reflection.Emit.ILGeneration\4.0.0\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
       <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
-      <Modified>2016-01-29T15:55:04.353</Modified>
+      <Modified>2015-12-11T16:52:05.108</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Reflection.Emit.Lightweight\4.0.0\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Reflection.Emit.Lightweight\4.0.0\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
       <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
-      <Modified>2016-01-29T15:55:04.356</Modified>
+      <Modified>2015-12-11T16:52:05.092</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Reflection.Extensions\4.0.0\lib\netcore50\System.Reflection.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Reflection.Extensions\4.0.0\lib\netcore50\System.Reflection.Extensions.dll">
       <PackagePath>System.Reflection.Extensions.dll</PackagePath>
-      <Modified>2016-01-29T15:53:48.230</Modified>
+      <Modified>2015-12-11T16:52:04.503</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Reflection.Metadata\1.0.22\lib\dotnet\System.Reflection.Metadata.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Reflection.Metadata\1.0.22\lib\dotnet\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
-      <Modified>2016-01-29T15:53:53.604</Modified>
+      <Modified>2015-12-11T16:52:04.674</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Reflection.Primitives\4.0.0\lib\netcore50\System.Reflection.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Reflection.Primitives\4.0.0\lib\netcore50\System.Reflection.Primitives.dll">
       <PackagePath>System.Reflection.Primitives.dll</PackagePath>
-      <Modified>2016-01-29T15:53:51.911</Modified>
+      <Modified>2015-12-11T16:52:04.609</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Reflection.TypeExtensions\4.0.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Reflection.TypeExtensions\4.0.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
-      <Modified>2016-01-29T15:53:54.920</Modified>
+      <Modified>2015-12-11T16:52:04.342</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Resources.ResourceManager\4.0.0\lib\netcore50\System.Resources.ResourceManager.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Resources.ResourceManager\4.0.0\lib\netcore50\System.Resources.ResourceManager.dll">
       <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
-      <Modified>2016-01-29T15:53:40.491</Modified>
+      <Modified>2015-12-11T16:52:04.302</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Runtime\4.0.20\lib\netcore50\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Runtime\4.0.20\lib\netcore50\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2016-01-29T15:53:40.970</Modified>
+      <Modified>2015-12-11T16:52:04.783</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Runtime.Extensions\4.0.10\lib\netcore50\System.Runtime.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Runtime.Extensions\4.0.10\lib\netcore50\System.Runtime.Extensions.dll">
       <PackagePath>System.Runtime.Extensions.dll</PackagePath>
-      <Modified>2016-01-29T15:53:47.920</Modified>
+      <Modified>2015-12-11T16:52:04.420</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Runtime.Handles\4.0.0\lib\netcore50\System.Runtime.Handles.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Runtime.Handles\4.0.0\lib\netcore50\System.Runtime.Handles.dll">
       <PackagePath>System.Runtime.Handles.dll</PackagePath>
-      <Modified>2016-01-29T15:53:50.742</Modified>
+      <Modified>2015-12-11T16:52:03.999</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Runtime.InteropServices\4.0.20\lib\netcore50\System.Runtime.InteropServices.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Runtime.InteropServices\4.0.20\lib\netcore50\System.Runtime.InteropServices.dll">
       <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
-      <Modified>2016-01-29T15:53:54.988</Modified>
+      <Modified>2015-12-11T16:52:04.503</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Runtime.InteropServices.WindowsRuntime\4.0.0\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Runtime.InteropServices.WindowsRuntime\4.0.0\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
       <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
-      <Modified>2016-01-29T15:53:37.162</Modified>
+      <Modified>2015-12-11T16:52:03.365</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Runtime.Numerics\4.0.0\lib\netcore50\System.Runtime.Numerics.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Runtime.Numerics\4.0.0\lib\netcore50\System.Runtime.Numerics.dll">
       <PackagePath>System.Runtime.Numerics.dll</PackagePath>
-      <Modified>2016-01-29T15:53:49.655</Modified>
+      <Modified>2015-12-11T16:52:03.979</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Runtime.Serialization.Json\4.0.0\lib\netcore50\System.Runtime.Serialization.Json.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Runtime.Serialization.Json\4.0.0\lib\netcore50\System.Runtime.Serialization.Json.dll">
       <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
-      <Modified>2016-01-29T15:53:40.440</Modified>
+      <Modified>2015-12-11T16:52:03.365</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Runtime.Serialization.Primitives\4.0.10\lib\dotnet\System.Runtime.Serialization.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Runtime.Serialization.Primitives\4.0.10\lib\dotnet\System.Runtime.Serialization.Primitives.dll">
       <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
-      <Modified>2016-01-29T15:53:38.736</Modified>
+      <Modified>2015-12-11T16:52:03.334</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Runtime.Serialization.Xml\4.0.10\lib\netcore50\System.Runtime.Serialization.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Runtime.Serialization.Xml\4.0.10\lib\netcore50\System.Runtime.Serialization.Xml.dll">
       <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
-      <Modified>2016-01-29T15:53:40.848</Modified>
+      <Modified>2015-12-11T16:52:03.459</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Runtime.WindowsRuntime\4.0.10\lib\netcore50\System.Runtime.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Runtime.WindowsRuntime\4.0.10\lib\netcore50\System.Runtime.WindowsRuntime.dll">
       <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
-      <Modified>2016-01-29T15:53:39.345</Modified>
+      <Modified>2015-12-11T16:52:03.490</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Runtime.WindowsRuntime.UI.Xaml\4.0.0\lib\netcore50\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Runtime.WindowsRuntime.UI.Xaml\4.0.0\lib\netcore50\System.Runtime.WindowsRuntime.UI.Xaml.dll">
       <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
-      <Modified>2016-01-29T15:53:40.843</Modified>
+      <Modified>2015-12-11T16:52:03.444</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Security.Claims\4.0.0\lib\dotnet\System.Security.Claims.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Security.Claims\4.0.0\lib\dotnet\System.Security.Claims.dll">
       <PackagePath>System.Security.Claims.dll</PackagePath>
-      <Modified>2016-01-29T15:53:48.493</Modified>
+      <Modified>2015-12-11T16:52:03.822</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Security.Principal\4.0.0\lib\netcore50\System.Security.Principal.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Security.Principal\4.0.0\lib\netcore50\System.Security.Principal.dll">
       <PackagePath>System.Security.Principal.dll</PackagePath>
-      <Modified>2016-01-29T15:53:49.847</Modified>
+      <Modified>2015-12-11T16:52:03.671</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.ServiceModel.Duplex\4.0.0\lib\netcore50\System.ServiceModel.Duplex.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.ServiceModel.Duplex\4.0.0\lib\netcore50\System.ServiceModel.Duplex.dll">
       <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
-      <Modified>2016-01-29T15:53:37.253</Modified>
+      <Modified>2015-12-11T16:52:03.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.ServiceModel.Http\4.0.10\lib\netcore50\System.ServiceModel.Http.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.ServiceModel.Http\4.0.10\lib\netcore50\System.ServiceModel.Http.dll">
       <PackagePath>System.ServiceModel.Http.dll</PackagePath>
-      <Modified>2016-01-29T15:53:40.851</Modified>
+      <Modified>2015-12-11T16:52:03.444</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.ServiceModel.NetTcp\4.0.0\lib\netcore50\System.ServiceModel.NetTcp.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.ServiceModel.NetTcp\4.0.0\lib\netcore50\System.ServiceModel.NetTcp.dll">
       <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
-      <Modified>2016-01-29T15:53:39.378</Modified>
+      <Modified>2015-12-11T16:52:03.591</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.ServiceModel.Primitives\4.0.0\lib\netcore50\System.ServiceModel.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.ServiceModel.Primitives\4.0.0\lib\netcore50\System.ServiceModel.Primitives.dll">
       <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
-      <Modified>2016-01-29T15:53:40.927</Modified>
+      <Modified>2015-12-11T16:52:04.255</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.ServiceModel.Security\4.0.0\lib\netcore50\System.ServiceModel.Security.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.ServiceModel.Security\4.0.0\lib\netcore50\System.ServiceModel.Security.dll">
       <PackagePath>System.ServiceModel.Security.dll</PackagePath>
-      <Modified>2016-01-29T15:53:39.381</Modified>
+      <Modified>2015-12-11T16:52:03.744</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Text.Encoding\4.0.10\lib\netcore50\System.Text.Encoding.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Text.Encoding\4.0.10\lib\netcore50\System.Text.Encoding.dll">
       <PackagePath>System.Text.Encoding.dll</PackagePath>
-      <Modified>2016-01-29T15:53:52.109</Modified>
+      <Modified>2015-12-11T16:52:03.697</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Text.Encoding.CodePages\4.0.0\lib\dotnet\System.Text.Encoding.CodePages.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Text.Encoding.CodePages\4.0.0\lib\dotnet\System.Text.Encoding.CodePages.dll">
       <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
-      <Modified>2016-01-29T15:53:40.863</Modified>
+      <Modified>2015-12-11T16:52:04.197</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Text.Encoding.Extensions\4.0.10\lib\netcore50\System.Text.Encoding.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Text.Encoding.Extensions\4.0.10\lib\netcore50\System.Text.Encoding.Extensions.dll">
       <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
-      <Modified>2016-01-29T15:53:51.110</Modified>
+      <Modified>2015-12-11T16:52:03.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Text.RegularExpressions\4.0.10\lib\dotnet\System.Text.RegularExpressions.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Text.RegularExpressions\4.0.10\lib\dotnet\System.Text.RegularExpressions.dll">
       <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
-      <Modified>2016-01-29T15:53:51.870</Modified>
+      <Modified>2015-12-11T16:52:03.523</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Threading\4.0.10\lib\netcore50\System.Threading.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Threading\4.0.10\lib\netcore50\System.Threading.dll">
       <PackagePath>System.Threading.dll</PackagePath>
-      <Modified>2016-01-29T15:53:47.910</Modified>
+      <Modified>2015-12-11T16:52:03.760</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Threading.Overlapped\4.0.0\lib\netcore50\System.Threading.Overlapped.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Threading.Overlapped\4.0.0\lib\netcore50\System.Threading.Overlapped.dll">
       <PackagePath>System.Threading.Overlapped.dll</PackagePath>
-      <Modified>2016-01-29T15:53:36.210</Modified>
+      <Modified>2015-12-11T16:52:02.865</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Threading.Tasks\4.0.10\lib\netcore50\System.Threading.Tasks.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Threading.Tasks\4.0.10\lib\netcore50\System.Threading.Tasks.dll">
       <PackagePath>System.Threading.Tasks.dll</PackagePath>
-      <Modified>2016-01-29T15:53:43.728</Modified>
+      <Modified>2015-12-11T16:52:03.637</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Threading.Tasks.Dataflow\4.5.25\lib\dotnet\System.Threading.Tasks.Dataflow.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Threading.Tasks.Dataflow\4.5.25\lib\dotnet\System.Threading.Tasks.Dataflow.dll">
       <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
-      <Modified>2016-01-29T15:53:54.633</Modified>
+      <Modified>2015-12-11T16:52:03.776</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Threading.Tasks.Parallel\4.0.0\lib\netcore50\System.Threading.Tasks.Parallel.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Threading.Tasks.Parallel\4.0.0\lib\netcore50\System.Threading.Tasks.Parallel.dll">
       <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
-      <Modified>2016-01-29T15:53:50.492</Modified>
+      <Modified>2015-12-11T16:52:03.397</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Threading.Timer\4.0.0\lib\netcore50\System.Threading.Timer.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Threading.Timer\4.0.0\lib\netcore50\System.Threading.Timer.dll">
       <PackagePath>System.Threading.Timer.dll</PackagePath>
-      <Modified>2016-01-29T15:53:51.925</Modified>
+      <Modified>2015-12-11T16:52:03.319</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Xml.ReaderWriter\4.0.10\lib\dotnet\System.Xml.ReaderWriter.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Xml.ReaderWriter\4.0.10\lib\dotnet\System.Xml.ReaderWriter.dll">
       <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
-      <Modified>2016-01-29T15:53:54.788</Modified>
+      <Modified>2015-12-11T16:52:03.697</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Xml.XDocument\4.0.10\lib\dotnet\System.Xml.XDocument.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Xml.XDocument\4.0.10\lib\dotnet\System.Xml.XDocument.dll">
       <PackagePath>System.Xml.XDocument.dll</PackagePath>
-      <Modified>2016-01-29T15:53:53.286</Modified>
+      <Modified>2015-12-11T16:52:03.334</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Xml.XmlDocument\4.0.0\lib\dotnet\System.Xml.XmlDocument.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Xml.XmlDocument\4.0.0\lib\dotnet\System.Xml.XmlDocument.dll">
       <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
-      <Modified>2016-01-29T15:53:38.701</Modified>
+      <Modified>2015-12-11T16:52:02.975</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
+    <AppxPackagedFile Include="C:\Users\Josipa\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
-      <Modified>2016-01-29T15:53:39.356</Modified>
+      <Modified>2015-12-11T16:52:04.069</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\Documents\Vje-tina-2015---Projekt\GuessMe\GuessMe\ApplicationInsights.config">
+    <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
-      <Modified>2015-12-30T10:42:45.868</Modified>
+      <Modified>2015-12-11T16:52:10.452</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\Documents\Vje-tina-2015---Projekt\GuessMe\GuessMe\WordBase.txt">
+    <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\WordBase.txt">
       <PackagePath>WordBase.txt</PackagePath>
-      <Modified>2016-01-28T20:08:30.177</Modified>
+      <Modified>2016-01-28T12:51:54.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\Documents\Vje-tina-2015---Projekt\GuessMe\GuessMe\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2015-12-30T10:42:45.935</Modified>
+      <Modified>2015-12-11T16:51:04.074</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\Documents\Vje-tina-2015---Projekt\GuessMe\GuessMe\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2015-12-30T10:42:45.869</Modified>
+      <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\Documents\Vje-tina-2015---Projekt\GuessMe\GuessMe\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-30T10:42:45.870</Modified>
+      <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\Documents\Vje-tina-2015---Projekt\GuessMe\GuessMe\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-30T10:42:45.870</Modified>
+      <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\Documents\Vje-tina-2015---Projekt\GuessMe\GuessMe\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-30T10:42:45.871</Modified>
+      <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\Documents\Vje-tina-2015---Projekt\GuessMe\GuessMe\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-30T10:42:45.872</Modified>
+      <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\Documents\Vje-tina-2015---Projekt\GuessMe\GuessMe\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-30T10:42:45.872</Modified>
+      <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\Documents\Vje-tina-2015---Projekt\GuessMe\GuessMe\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-30T10:42:45.873</Modified>
+      <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\Documents\Vje-tina-2015---Projekt\GuessMe\GuessMe\bin\x86\Debug\GuessMe.xr.xml">
+    <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\bin\x86\Debug\GuessMe.xr.xml">
       <PackagePath>GuessMe.xr.xml</PackagePath>
-      <Modified>2016-01-31T14:20:55.508</Modified>
+      <Modified>2016-01-31T14:28:39.198</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2016-01-29T15:21:55.272</Modified>
+      <Modified>2016-01-28T17:16:47.246</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\Documents\Vje-tina-2015---Projekt\GuessMe\GuessMe\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-01-31T14:20:56.040</Modified>
+      <Modified>2016-01-31T14:29:51.402</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stella\Documents\Vje-tina-2015---Projekt\GuessMe\GuessMe\bin\x86\Debug\Core\GuessMe.exe">
+    <AppxPackagedFile Include="D:\Projects\GuessMe\GuessMe\bin\x86\Debug\Core\GuessMe.exe">
       <PackagePath>GuessMe.exe</PackagePath>
-      <Modified>2016-01-31T14:21:58.816</Modified>
+      <Modified>2016-01-31T15:02:40.460</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -34,7 +34,7 @@ namespace GuessMe {
             this.Suspending += OnSuspending;
             AppLogics.init();
 
-            
+           
         }
 
         /// <summary>

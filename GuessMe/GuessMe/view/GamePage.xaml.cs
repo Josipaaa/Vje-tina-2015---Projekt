@@ -69,8 +69,7 @@ namespace GuessMe {
         }
 
         private void Start_Click(object sender, RoutedEventArgs e)
-        {
-          
+        {      
                 timer.Start();
         }
         private List<string> fetchWords()
