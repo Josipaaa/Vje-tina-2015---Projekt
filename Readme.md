@@ -44,3 +44,7 @@ E.	Raspodjela posla
 Pošto nas ima 3 u grupi, jedna od nas će se brinuti o izgledu aplikacije, druga o funkcionalnostima vezanima uz algoritme izračunavanja bodova i unosima korisnika, dok će treća obrađivati sve vezano uz bazu podataka. Moguće je djelomično preklapanje poslova.
 
 U ovom projektu sudjeluju: Stella Coumbassa, Josipa Popović, Iva Topolovac
+
+Link na download aplikacije objavljene na Windows Store-u:
+	https://www.microsoft.com/hr-hr/store/games/guessmeguess/9nblggh5pmbr
+	
