@@ -1,2 +1,0 @@
-MainPackage=D:\Projects\GuessMe\GuessMe\bin\ARM\Release\Upload\GuessMe_1.1.0.0_ARM.appx
-SymbolPackage=D:\Projects\GuessMe\GuessMe\AppPackages\GuessMe_1.1.0.0\GuessMe_1.1.0.0_ARM.appxsym
